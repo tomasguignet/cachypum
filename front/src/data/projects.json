@@ -1,6 +1,9 @@
 [
   {
-    "title": "centro de día",
+    "title": "Centro de día",
+    "cardImage": "/src/images/centrodedia.jpg",
+    "cardDescription": "Asistencia terapéutica, educativa y recreativa a personas adultas con discapacidad",
+    "link": "/centro-de-dia",
     "titleImage": "front/src/images/DSC_1348.JPG",
     "subtitle": "Bienvenidos al corazón de fundación Cachypum",
     "summary": "En nuestro centro recibimos a personas de 18 a 60 años con discapacidad, y es en donde, a través del desarrollo de actividades asistenciales, recreativas, educativas, terapéuticas y de formación laboral, promovemos espacios donde puedan maximizar el desarrollo de sus potencialidades y autonomía interactuando en forma directa y permanente con su entorno familiar, social y natural.",
@@ -64,7 +67,10 @@
     ]
   },
   {
-    "title": "granja educativa",
+    "title": "Granja educativa",
+    "cardImage": "/src/images/granjaeducativa.jpg",
+    "cardDescription": "Visita educativa y recreativa a nuestra granja para niños y niñas",
+    "link": "/granja-educativa",
     "titleImage": "front/src/images/DSC_2274.JPG",
     "subtitle": "El legado para nuevas generaciones",
     "summary": "La granja educativa es un programa dirigido a niños y niñas para que desarrollen aprendizajes y conocimientos a través del juego, la recreación y la experiencia directa con animales y plantas.  Promovemos valores y generamos consciencia del cuidado del medio ambiente y respeto hacia los demás seres.",
@@ -94,7 +100,10 @@
     ]
   },
   {
-    "title": "bienestar y naturaleza",
+    "title": "Bienestar y naturaleza",
+    "cardImage": "/src/images/bienestarynaturaleza.jpeg",
+    "cardDescription": "Nos enfocamos en terapias con y en la naturaleza, combinando la sabiduría de los elementos con técnicas especializadas que promueven el equilibrio físico, mental y emocional.",
+    "link": "/bienestar-y-naturaleza",
     "titleImage": "front/src/images/DSC_2499.JPG",
     "subtitle": "Creemos en la sabiduría natural",
     "summary": "Buscamos generar un entorno de transformación y reconocimiento, donde podamos habitar el cuerpo con presencia, permanecer en la emoción y reconectar con la sabiduría de la naturaleza.  Un espacio donde el contacto con los animales, las plantas y la tierra nos ayude a reencontrarnos con nuestros ritmos internos y a recuperar el equilibrio.",
@@ -114,13 +123,19 @@
     }
   },
   {
-    "title": "estensión social",
+    "title": "Extensión social",
+    "cardImage": "/src/images/extensionsocial.jpeg",
+    "cardDescription": "Red comunitaria para gestionar trámites, salud y donaciones",
+    "link": "/extension-social",
     "titleImage": "front/srcimages/WhatsApp Image 2024-12-18 at 14.32.26 (1).jpeg",
     "subtitle": "Nuestra manera es comunitaria",
     "summary": "Articulaciones entre las familias y la comunidad en general, necesidades de la vida diaria y del ejercicio de los derechos. Turnos y urgencias médicas, Anses, Cobros banco nación, Ministerio de trabajo de la nación, Programas sanitarios, Campañas ropa, alimentos, juguetes y otras donaciones destinadas a otras ONG, merenderos, jardines, centros de jubilados etc."
   },
   {
-    "title": "hogar de vida",
+    "title": "Hogar sustentable",
+    "cardImage": "/src/images/hogarsustentable.jpeg",
+    "cardDescription": "Construcción de un hogar para una comunidad sustentable de personas con discapacidad",
+    "link": "/hogar-sustentable",
     "titleImage": "front/src/images/DSC_1514.JPG",
     "subtitle": "Nuestra manera es comunitaria",
     "summary": "Comunidad de vida sustentable, consiste en la construcción de un hogar con innovación tecnológica y energías renovables. \nSe propone una vida en comunidad con participación activa de los residentes en la dinámica de la vida diaria desde un dispositivo terapéutico específico.",
@@ -134,9 +149,18 @@
     }
   },
   {
-    "title": "servicio de transporte",
+    "title": "Servicio de transporte",
+    "cardImage": "/src/images/transporte.jpeg",
+    "cardDescription": "Puerta a puerta, garantizando accesibilidad, seguridad y un acompañamiento responsable para nuestros concurrentes.",
+    "link": "/servicio-de-transporte",
     "titleImage": "front/src/images/WhatsApp Image 2024-12-18 at 14.32.27.jpeg",
     "subtitle": "Acortamos brechas",
     "summary": "Trabajamos con transporte propio, puerta a puerta, para garantizar el cuidado y la seguridad de cada persona. Contamos con personal idóneo capacitado, trato amable y responsable."
+  },
+  {
+    "title": "Compost biodínamico",
+    "cardImage": "/src/images/compostbiodinamico.jpg",
+    "cardDescription": "Comprometidos con nuestra tierra, producimos compost biodinámico y brindamos talleres formativos de 'Tierra Viva' para fomentar una conexión consciente con el suelo y sus ciclos naturales.",
+    "link": "/compost-biodinamico"
   }
 ]
