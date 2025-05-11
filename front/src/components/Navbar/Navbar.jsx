@@ -16,14 +16,14 @@ const Navbar = () => {
     <header className="z-20 w-full flex justify-between items-center pt-0.5 px-0.5 bg-brown">
       <Link className="" to="/">
         <img
-          className="ml-1 sm:ml-4 lg:ml-6 w-11 sm:w-28 lg:w-32 sm:pt-3"
+          className="ml-1 sm:ml-4 lg:ml-4 xl:ml-6 w-11 sm:w-24 lg:w-28 xl:h-32 sm:pt-3"
           src={Logo}
           alt="Logo"
         />
       </Link>
 
       {/* Nav links visibles solo en PC */}
-      <nav className="hidden lg:flex flex-row gap-x-10 font-[Ubuntu] font-bold text-lg text-black/80 mr-4 pb-6">
+      <nav className="hidden lg:flex flex-row gap-x-10 lg:gap-x-6 font-[Ubuntu] font-bold text-[0.85rem] xl:text-[0.95rem] text-black/80 mr-4 pb-6">
         <Link to="/fundation">FUNDACIÓN</Link>
         <a href="#projects">PROGRAMAS Y PROYECTOS</a>
         <Link to="/empresas">EMPRESAS</Link>

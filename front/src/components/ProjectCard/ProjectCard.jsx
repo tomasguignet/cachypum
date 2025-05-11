@@ -4,7 +4,7 @@ import { Link } from "react-router";
 const ProjectCard = ({ project }) => {
   return (
     <div className="m-4 sm:my-0 sm:mx-0 sm:w-1/3 sm:px-4">
-      <div className="sm:flex sm:flex-col sm:h-[39rem] sm:p-4">
+      <div className="sm:flex sm:flex-col sm:h-[33rem] lg:h-[39rem] sm:p-4">
         <img
           className="w-full h-72 sm:h-auto sm:aspect-square object-cover"
           src={project.cardImage}
@@ -12,10 +12,10 @@ const ProjectCard = ({ project }) => {
         />
         <div className="flex-1 flex flex-col justify-between mt-4">
           <div className="sm:text-left">
-            <h3 className="font-[Sora] font-black text-black/75 text-base sm:text-2xl">
+            <h3 className="font-[Sora] font-black text-black/75 text-base sm:text-lg lg:text-2xl">
               {project.title}
             </h3>
-            <p className="font-[Sora] font-semibold text-black/70 text-xs sm:text-[1.120rem] mt-2 mb-3">
+            <p className="font-[Sora] font-semibold text-black/70 text-xs sm:text-[0.9rem] lg:text-[1.12rem] mt-2 mb-3">
               {project.cardDescription}
             </p>
           </div>
