@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -20,7 +20,7 @@ const ProjectCard = ({ project }) => {
             </p>
           </div>
           <Link
-            to={project.link}
+            to={`/projects/${project.id}`}
             className="sm:min-w-24 font-[Roboto] font-medium text-sm sm:text-lg text-oliveGreen border-3 rounded-sm border-oliveGreen px-2.5 sm:px-3.5 py-1 sm:py-0.5 self-center sm:self-start sm:mt-auto"
           >
             Más Info

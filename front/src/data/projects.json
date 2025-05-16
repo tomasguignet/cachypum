@@ -1,10 +1,11 @@
 [
   {
+    "id": 1,
     "title": "Centro de día",
     "cardImage": "/src/images/centrodedia.jpg",
     "cardDescription": "Asistencia terapéutica, educativa y recreativa a personas adultas con discapacidad",
     "link": "/centro-de-dia",
-    "titleImage": "front/src/images/DSC_1348.JPG",
+    "titleImage": "/src/images/centro-de-dia.jpg",
     "subtitle": "Bienvenidos al corazón de fundación Cachypum",
     "summary": "En nuestro centro recibimos a personas de 18 a 60 años con discapacidad, y es en donde, a través del desarrollo de actividades asistenciales, recreativas, educativas, terapéuticas y de formación laboral, promovemos espacios donde puedan maximizar el desarrollo de sus potencialidades y autonomía interactuando en forma directa y permanente con su entorno familiar, social y natural.",
     "purpose": [
@@ -67,6 +68,7 @@
     ]
   },
   {
+    "id": 2,
     "title": "Granja educativa",
     "cardImage": "/src/images/granjaeducativa.jpg",
     "cardDescription": "Visita educativa y recreativa a nuestra granja para niños y niñas",
@@ -100,6 +102,7 @@
     ]
   },
   {
+    "id": 3,
     "title": "Bienestar y naturaleza",
     "cardImage": "/src/images/bienestarynaturaleza.jpeg",
     "cardDescription": "Nos enfocamos en terapias con y en la naturaleza, combinando la sabiduría de los elementos con técnicas especializadas que promueven el equilibrio físico, mental y emocional.",
@@ -123,6 +126,7 @@
     }
   },
   {
+    "id": 4,
     "title": "Extensión social",
     "cardImage": "/src/images/extensionsocial.jpeg",
     "cardDescription": "Red comunitaria para gestionar trámites, salud y donaciones",
@@ -132,6 +136,7 @@
     "summary": "Articulaciones entre las familias y la comunidad en general, necesidades de la vida diaria y del ejercicio de los derechos. Turnos y urgencias médicas, Anses, Cobros banco nación, Ministerio de trabajo de la nación, Programas sanitarios, Campañas ropa, alimentos, juguetes y otras donaciones destinadas a otras ONG, merenderos, jardines, centros de jubilados etc."
   },
   {
+    "id": 5,
     "title": "Hogar sustentable",
     "cardImage": "/src/images/hogarsustentable.jpeg",
     "cardDescription": "Construcción de un hogar para una comunidad sustentable de personas con discapacidad",
@@ -149,6 +154,7 @@
     }
   },
   {
+    "id": 6,
     "title": "Servicio de transporte",
     "cardImage": "/src/images/transporte.jpeg",
     "cardDescription": "Puerta a puerta, garantizando accesibilidad, seguridad y un acompañamiento responsable para nuestros concurrentes.",
@@ -158,6 +164,7 @@
     "summary": "Trabajamos con transporte propio, puerta a puerta, para garantizar el cuidado y la seguridad de cada persona. Contamos con personal idóneo capacitado, trato amable y responsable."
   },
   {
+    "id": 7,
     "title": "Compost biodínamico",
     "cardImage": "/src/images/compostbiodinamico.jpg",
     "cardDescription": "Comprometidos con nuestra tierra, producimos compost biodinámico y brindamos talleres formativos de 'Tierra Viva' para fomentar una conexión consciente con el suelo y sus ciclos naturales.",

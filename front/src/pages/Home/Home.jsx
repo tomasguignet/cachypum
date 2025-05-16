@@ -79,7 +79,7 @@ const Home = () => {
             <div className="flex justify-center">
               <div className="flex flex-col sm:flex-row sm:flex-wrap items-center sm:w-full sm:max-w-6xl">
                 {projects.map((project) => (
-                  <ProjectCard project={project} key={project.title} />
+                  <ProjectCard project={project} key={project.id} />
                 ))}
               </div>
             </div>

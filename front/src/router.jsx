@@ -1,8 +1,9 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Fundation from "./pages/Fundation/Fundation";
 import MoreInfo from "./pages/MoreInfo/MoreInfo";
 import Philosophy from "./pages/Philosophy/Philosophy";
+import ProjectDetail from "./pages/ProjectDetail/ProjectDetail";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/philosophy",
     element: <Philosophy />,
+  },
+  {
+    path: "/projects/:id",
+    element: <ProjectDetail />,
   },
 ]);
 
