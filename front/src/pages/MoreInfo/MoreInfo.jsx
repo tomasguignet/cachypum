@@ -5,7 +5,7 @@ import caballoAbajo from "../../images/caballoAbajo.jpg";
 
 const MoreInfo = () => {
   return (
-    <section className="bg-oliveGreen xl:h-screen brightness-110 text-center text-white pt-3.5">
+    <section className="bg-oliveGreen xl:h-full brightness-110 text-center text-white pt-3.5">
       <p className="text-sm lg:text-base px-4 xl:w-[30rem] xl:place-self-center mb-8 lg:mb-10">
         En nuestra <strong>fundación</strong>, diseñamos experiencias
         significativas para empresas que desean fortalecer su compromiso con la

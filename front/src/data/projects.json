@@ -7,62 +7,78 @@
     "link": "/centro-de-dia",
     "titleImage": "/src/images/centro-de-dia.jpg",
     "subtitle": "Bienvenidos al corazón de fundación Cachypum",
-    "summary": "En nuestro centro recibimos a personas de 18 a 60 años con discapacidad, y es en donde, a través del desarrollo de actividades asistenciales, recreativas, educativas, terapéuticas y de formación laboral, promovemos espacios donde puedan maximizar el desarrollo de sus potencialidades y autonomía interactuando en forma directa y permanente con su entorno familiar, social y natural.",
-    "purpose": [
+    "importantWord": "corazón",
+    "summary": [
       {
-        "title": "Fomentar la autonomía",
-        "text": "Brindamos herramientas y espacios que promuevan el desarrollo de habilidades prácticas y sociales.  A través de talleres, actividades recreativas y ocupacionales, buscamos fortalecer su capacidad de tomar decisiones, desenvolverse en diferentes entornos y enfrentar desafíos cotidianos con mayor seguridad e independencia."
+        "text": "En nuestro centro recibimos a personas de 18 a 60 años con discapacidad, y es en donde, a través del desarrollo de actividades asistenciales, recreativas, educativas, terapéuticas y de formación laboral, ",
+        "class": ""
       },
       {
-        "title": "Estimular el desarrollo cognitivo",
-        "text": "Promovemos el desarrollo cognitivo mediante actividades y talleres diseñados para estimular la memoria, la atención, la resolución de problemas y el pensamiento crítico.  Nuestro objetivo es fortalecer las capacidades mentales de cada participante, fomentando un aprendizaje constante y la aplicación de estas habilidades en su vida diaria."
+        "text": "promovemos espacios donde puedan maximizar el desarrollo de sus potencialidades y autonomía ",
+        "class": "font-bold"
       },
       {
-        "title": "Inclusión sociolaboral",
-        "text": "Trabajamos para fomentar la inclusión sociolaboral de nuestros participantes.  A través de talleres ocupacionales, actividades en equipo y proyectos productivos, buscamos desarrollar habilidades laborales, fortalecer la autoestima y promover su participación activa en la comunidad."
+        "text": "interactuando en forma directa y permanente con su entorno familiar, social y natural.",
+        "class": ""
       }
     ],
+    "purpose": {
+      "array": [
+        {
+          "title": "Fomentar la autonomía",
+          "text": "Brindamos herramientas y espacios que promuevan el desarrollo de habilidades prácticas y sociales.  A través de talleres, actividades recreativas y ocupacionales, buscamos fortalecer su capacidad de tomar decisiones, desenvolverse en diferentes entornos y enfrentar desafíos cotidianos con mayor seguridad e independencia."
+        },
+        {
+          "title": "Estimular el desarrollo cognitivo",
+          "text": "Promovemos el desarrollo cognitivo mediante actividades y talleres diseñados para estimular la memoria, la atención, la resolución de problemas y el pensamiento crítico.  Nuestro objetivo es fortalecer las capacidades mentales de cada participante, fomentando un aprendizaje constante y la aplicación de estas habilidades en su vida diaria."
+        },
+        {
+          "title": "Inclusión sociolaboral",
+          "text": "Trabajamos para fomentar la inclusión sociolaboral de nuestros participantes.  A través de talleres ocupacionales, actividades en equipo y proyectos productivos, buscamos desarrollar habilidades laborales, fortalecer la autoestima y promover su participación activa en la comunidad."
+        }
+      ]
+    },
     "team": {
-      "image": "front/src/images/DSC_1348.JPG",
+      "image": "/src/images/hombreSombreroPlanta.jpg",
       "text": "Contamos con un equipo humano comprometido, solidario, empático y apasionado por su labor, valores que definen su principal característica.  Este equipo interdisciplinario está conformado por profesionales de la salud, educación física, expresión artística, psicólogos, trabajadores sociales, docentes, auxiliares, terapistas ocupacionales, todos enfocados en brindar acompañamiento integral, promover el desarrollo personal y garantizar un ambiente inclusivo y respetuoso para cada participante."
     },
     "workshops": [
       {
-        "image": "Taller de huerta",
+        "image": "/src/images/carpinteria.png",
         "title": "CARPINTERIA"
       },
       {
-        "image": "Taller de cocina",
+        "image": "/src/images/cocina.png",
         "title": "COCINA"
       },
       {
-        "image": "Taller de movimiento",
+        "image": "/src/images/movimiento.png",
         "title": "MOVIMIENTO"
       },
       {
-        "image": "Taller de huerta",
+        "image": "/src/images/huerta.png",
         "title": "HUERTA"
       }
     ],
     "images": [
       {
-        "src": "front/src/images/DSC_1348.JPG",
+        "src": "front/src/images/DSC_1348.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1350.JPG",
+        "src": "front/src/images/DSC_1350.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1351.JPG",
+        "src": "front/src/images/DSC_1351.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1352.JPG",
+        "src": "front/src/images/DSC_1352.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1353.JPG",
+        "src": "front/src/images/DSC_1353.jpg",
         "alt": "Centro de día"
       }
     ]
@@ -73,30 +89,78 @@
     "cardImage": "/src/images/granjaeducativa.jpg",
     "cardDescription": "Visita educativa y recreativa a nuestra granja para niños y niñas",
     "link": "/granja-educativa",
-    "titleImage": "front/src/images/DSC_2274.JPG",
+    "titleImage": "/src/images/DSC_2274.jpg",
     "subtitle": "El legado para nuevas generaciones",
-    "summary": "La granja educativa es un programa dirigido a niños y niñas para que desarrollen aprendizajes y conocimientos a través del juego, la recreación y la experiencia directa con animales y plantas.  Promovemos valores y generamos consciencia del cuidado del medio ambiente y respeto hacia los demás seres.",
-    "purpose": "La granja educativa es un programa dirigido a niños y niñas para que desarrollen aprendizajes y conocimientos a través del juego, la recreación y la experiencia directa con animales y plantas.  Promovemos valores y generamos consciencia del cuidado del medio ambiente y respeto hacia los demás seres.",
-    "proposal": "Visitas guiadas y actividades diseñadas para explorar la creatividad, descubrir la sorpresa en lo cotidiano, reflexionar sobre el mundo que los rodea y disfrutar de momentos significativos: reír, compartir, abrazar un conejo, alimentar una cabra, plantar o cosechar, y comprender el valor del tiempo, de las estaciones y de los ciclos naturales del vivir.",
+    "importantWord": "generaciones",
+    "summary": [
+      {
+        "text": "La granja educativa es un programa dirigido a niños y niñas para que ",
+        "class": ""
+      },
+      {
+        "text": "desarrollen aprendizajes y conocimientos a través del juego",
+        "class": "font-bold"
+      },
+      {
+        "text": ", la recreación y la experiencia directa con animales y plantas.",
+        "class": ""
+      },
+      {
+        "text": "Promovemos valores y generamos consciencia ",
+        "class": "font-bold"
+      },
+      {
+        "text": "del cuidado del medio ambiente y respeto hacia los demás seres.",
+        "class": ""
+      }
+    ],
+    "purpose": {
+      "purposeText": [
+        {
+          "text": "Lo hacemos para fomentar el desarrollo de niños y niñas, ",
+          "class": ""
+        },
+        {
+          "text": "conectandolos con la naturaleza y su entorno, fortaleciendo su creatividad, empatia y sentido de responsabilidad.\n",
+          "class": "font-bold"
+        },
+        {
+          "text": "Buscamos que cada niño y niña que participe en nuestro programa no solo adquiera conocimientos, sino que tambien desarrolle una profunda consiencia ambiental y social, entendiendo la importancia del respeto y el cuidado de todos los seres vivos, ",
+          "class": ""
+        },
+        {
+          "text": "contribuyendo asi a la formacion de una generacion mas consciente y comprometida con el mundo que los rodea.",
+          "class": "font-bold"
+        }
+      ]
+    },
+    "proposal": {
+      "proposalText": [
+        {
+          "text": "Visitas guiadas y actividades diseñadas para explorar la creatividad, descubrir la sorpresa en lo cotidiano, reflexionar sobre el mundo que los rodea y disfrutar de momentos significativos: reír, compartir, abrazar un conejo, alimentar una cabra, plantar o cosechar, y comprender el valor del tiempo, de las estaciones y de los ciclos naturales del vivir.",
+          "class": ""
+        }
+      ]
+    },
     "images": [
       {
-        "src": "front/src/images/DSC_1348.JPG",
+        "src": "front/src/images/DSC_1348.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1350.JPG",
+        "src": "front/src/images/DSC_1350.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1351.JPG",
+        "src": "front/src/images/DSC_1351.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1352.JPG",
+        "src": "front/src/images/DSC_1352.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1353.JPG",
+        "src": "front/src/images/DSC_1353.jpg",
         "alt": "Centro de día"
       }
     ]
@@ -107,21 +171,55 @@
     "cardImage": "/src/images/bienestarynaturaleza.jpeg",
     "cardDescription": "Nos enfocamos en terapias con y en la naturaleza, combinando la sabiduría de los elementos con técnicas especializadas que promueven el equilibrio físico, mental y emocional.",
     "link": "/bienestar-y-naturaleza",
-    "titleImage": "front/src/images/DSC_2499.JPG",
+    "titleImage": "/src/images/caballoNegro.jpg",
     "subtitle": "Creemos en la sabiduría natural",
-    "summary": "Buscamos generar un entorno de transformación y reconocimiento, donde podamos habitar el cuerpo con presencia, permanecer en la emoción y reconectar con la sabiduría de la naturaleza.  Un espacio donde el contacto con los animales, las plantas y la tierra nos ayude a reencontrarnos con nuestros ritmos internos y a recuperar el equilibrio.",
+    "importantWord": "natural",
+    "summary": [
+      {
+        "text": "Buscamos generar un entorno de transformación y reconocimiento, donde podamos habitar el cuerpo con presencia, permanecer en la emoción y reconectar con la sabiduría de la naturaleza.  Un espacio donde el contacto con los animales, las plantas y la tierra nos ayude a reencontrarnos con nuestros ritmos internos y a recuperar el equilibrio.",
+        "class": ""
+      }
+    ],
     "purpose": {
-      "image": "front/src/images/DSC_2499.JPG",
-      "text": "Nuestro propósito es volver, regresar.  Es desacelerar, resincronizarnos con los ritmos de la naturaleza, reconocer el presente, habitar el cuerpo y permitirnos sentir sin prisa quedándonos en la emoción.  En este camino, el rol del terapeuta es acompañar y sostener cada proceso con respeto y contención, brindando un espacio seguro para la transformación.  Contamos con un equipo de profesionales de la salud, terapeutas y psicólogos capacitados que garantizan un enfoque terapéutico integral, donde cada experiencia se vive desde la presencia y el cuidado."
+      "image": "/src/images/imagenPrueba.png",
+      "purposeText": [
+        {
+          "text": "Nuestro propósito es volver, regresar.  Es desacelerar, resincronizarnos con los ritmos de la naturaleza, reconocer el presente, habitar el cuerpo y permitirnos sentir sin prisa quedándonos en la emoción.  En este camino, ",
+          "class": ""
+        },
+        {
+          "text": "el rol del terapeuta es acompañar y sostener ",
+          "class": "font-bold"
+        },
+        {
+          "text": "cada proceso con respeto y contención, brindando un espacio seguro para la transformación.\nContamos con un equipo de profesionales de la salud, terapeutas y psicólogos capacitados que garantizan un enfoque terapéutico integral, donde cada experiencia se vive desde la presencia y el cuidado.",
+          "class": ""
+        }
+      ]
     },
     "proposal": {
-      "image": "front/src/images/DSC_2499.JPG",
-      "text": [
-        "Terapias Asistidas con Caballos: El caballo como guía y facilitador para posibilitar y acompañar procesos de sanación, autoconocimiento y trabajo interno.",
-        "Huerta y Tierra Viva: Un espacio para reconectar con la tierra y comprender los ritmos naturales que también nos habitan.  A través de actividades y talleres, exploramos los procesos del tiempo y las estaciones, descubriendo cómo cada ciclo de la naturaleza refleja nuestros propios procesos internos.",
-        "Bienestar a Través de baños de Hielo: Terapias para revitalizar el cuerpo y fortalecer la resiliencia.",
-        "Prácticas de Conciencia Plena: Clases de meditación, sound healing y círculos de encuentro con temáticas.",
-        "Aromaterapia y Saberes Ancestrales: Un espacio para explorar la sabiduría de la naturaleza a través de sus aceites esenciales y la energía viva de las plantas.  A partir de prácticas inspiradas en los mensajes sutiles que nos ofrece la naturaleza."
+      "image": "/src/images/imagenPrueba.png",
+      "proposalList": [
+        {
+          "title": "Terapias Asistidas con Caballos: ",
+          "text": "El caballo como guía y facilitador para posibilitar y acompañar procesos de sanación, autoconocimiento y trabajo interno."
+        },
+        {
+          "title": "Huerta y Tierra Viva: ",
+          "text": "Un espacio para reconectar con la tierra y comprender los ritmos naturales que también nos habitan.  A través de actividades y talleres, exploramos los procesos del tiempo y las estaciones, descubriendo cómo cada ciclo de la naturaleza refleja nuestros propios procesos internos."
+        },
+        {
+          "title": "Bienestar a Través de baños de Hielo: ",
+          "text": "Terapias para revitalizar el cuerpo y fortalecer la resiliencia."
+        },
+        {
+          "title": "Prácticas de Conciencia Plena: ",
+          "text": "Clases de meditación, sound healing y círculos de encuentro con temáticas."
+        },
+        {
+          "title": "Aromaterapia y Saberes Ancestrales: ",
+          "text": "Un espacio para explorar la sabiduría de la naturaleza a través de sus aceites esenciales y la energía viva de las plantas.  A partir de prácticas inspiradas en los mensajes sutiles que nos ofrece la naturaleza."
+        }
       ]
     }
   },
@@ -131,9 +229,15 @@
     "cardImage": "/src/images/extensionsocial.jpeg",
     "cardDescription": "Red comunitaria para gestionar trámites, salud y donaciones",
     "link": "/extension-social",
-    "titleImage": "front/srcimages/WhatsApp Image 2024-12-18 at 14.32.26 (1).jpeg",
+    "titleImage": "/src/images/grupoPersonas.jpeg",
     "subtitle": "Nuestra manera es comunitaria",
-    "summary": "Articulaciones entre las familias y la comunidad en general, necesidades de la vida diaria y del ejercicio de los derechos. Turnos y urgencias médicas, Anses, Cobros banco nación, Ministerio de trabajo de la nación, Programas sanitarios, Campañas ropa, alimentos, juguetes y otras donaciones destinadas a otras ONG, merenderos, jardines, centros de jubilados etc."
+    "importantWord": "comunitaria",
+    "summary": [
+      {
+        "text": "Articulaciones entre las familias y la comunidad en general, necesidades de la vida diaria y del ejercicio de los derechos. Turnos y urgencias médicas, Anses, Cobros banco nación, Ministerio de trabajo de la nación, Programas sanitarios, Campañas ropa, alimentos, juguetes y otras donaciones destinadas a otras ONG, merenderos, jardines, centros de jubilados etc.",
+        "class": ""
+      }
+    ]
   },
   {
     "id": 5,
@@ -141,15 +245,44 @@
     "cardImage": "/src/images/hogarsustentable.jpeg",
     "cardDescription": "Construcción de un hogar para una comunidad sustentable de personas con discapacidad",
     "link": "/hogar-sustentable",
-    "titleImage": "front/src/images/DSC_1514.JPG",
+    "titleImage": "/src/images/hogarDeVida.jpeg",
     "subtitle": "Nuestra manera es comunitaria",
-    "summary": "Comunidad de vida sustentable, consiste en la construcción de un hogar con innovación tecnológica y energías renovables. \nSe propone una vida en comunidad con participación activa de los residentes en la dinámica de la vida diaria desde un dispositivo terapéutico específico.",
+    "importantWord": "comunitaria",
+    "summary": [
+      {
+        "text": "Comunidad de vida sustentable, consiste en la construcción de un hogar con ",
+        "class": ""
+      },
+      {
+        "text": "innovación tecnológica y energías renovables.",
+        "class": "font-bold"
+      },
+      { "text": "\nSe propone una ", "class": "" },
+      { "text": "vida en comunidad ", "class": "font-bold" },
+      {
+        "text": "con participación activa de los residentes en la dinámica de la vida diaria desde un dispositivo terapéutico específico.",
+        "class": ""
+      }
+    ],
     "proposal": {
-      "image": "front/src/images/DSC_1514.JPG",
-      "text": "Vivir y trabajar en un modelo de vida compartida, contribuyendo a la sustentabilidad y el bienestar colectivo a través de actividades productivas como la agricultura biodinámica, en sintonía con la naturaleza y el paso de las estaciones."
+      "image": "/src/images/imagenPrueba.png",
+      "proposalText": [
+        {
+          "text": "Vivir y trabajar en un modelo de vida compartida, ",
+          "class": ""
+        },
+        {
+          "text": "contribuyendo a la sustentabilidad y el bienestar colectivo ",
+          "class": "font-bold"
+        },
+        {
+          "text": "a través de actividades productivas como la agricultura biodinámica, en sintonía con la naturaleza y el paso de las estaciones.",
+          "class": ""
+        }
+      ]
     },
     "stateOfProject": {
-      "image": "front/src/images/DSC_1514.JPG",
+      "image": "/src/images/imagenPrueba.png",
       "text": "El Hogar de Vida Sustentable se encuentra en proceso de desarrollo, a la espera de los desembolsos correspondientes para avanzar en su construcción y puesta en marcha. Este espacio será un refugio de bienestar, integración y conexión con la naturaleza, basado en principios de sustentabilidad y autocuidado."
     }
   },
@@ -159,9 +292,15 @@
     "cardImage": "/src/images/transporte.jpeg",
     "cardDescription": "Puerta a puerta, garantizando accesibilidad, seguridad y un acompañamiento responsable para nuestros concurrentes.",
     "link": "/servicio-de-transporte",
-    "titleImage": "front/src/images/WhatsApp Image 2024-12-18 at 14.32.27.jpeg",
+    "titleImage": "/src/images/transporte.jpeg",
     "subtitle": "Acortamos brechas",
-    "summary": "Trabajamos con transporte propio, puerta a puerta, para garantizar el cuidado y la seguridad de cada persona. Contamos con personal idóneo capacitado, trato amable y responsable."
+    "importantWord": "brechas",
+    "summary": [
+      {
+        "text": "Trabajamos con transporte propio, puerta a puerta, para garantizar el cuidado y la seguridad de cada persona. Contamos con personal idóneo capacitado, trato amable y responsable.",
+        "class": ""
+      }
+    ]
   },
   {
     "id": 7,

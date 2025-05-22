@@ -93,7 +93,7 @@ const Home = () => {
           </h5>
           <h3 className="font-[Sora] font-black w-4/5 sm:w-3/4 sm:text-[1.2 rem] lg:text-[1.5rem] xl:text-[1.8rem] xl:leading-11 xl:pl-3 text-black/80 mr-0.5">
             Desarrollamos actividades y eventos para tu
-            <h3 className="inline text-oliveGreen"> empresa</h3>
+            <span className="inline text-oliveGreen"> empresa</span>
           </h3>
           <Link
             className="max-sm:hidden font-[Roboto] font-medium text-lg lg:text-xl xl:text-2xl bg-lightOrange text-white rounded-sm border-oliveGreen mt-10 lg:mt-12 xl:mt-20 px-5 lg:px-5 py-1.5 lg:py-2.5"
