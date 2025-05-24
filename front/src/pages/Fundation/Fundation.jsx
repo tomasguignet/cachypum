@@ -1,7 +1,13 @@
 import caballoBlanco from "../../images/caballoBlanco.jpeg";
 import manosConejo from "../../images/manosConejo.jpeg";
+import cuadroDeColores from "../../images/cuadroDeColores.png";
+import { useEffect } from "react";
 
 const Fundation = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" }); // 👈 Esto scrollea al tope
+  }, []);
+
   return (
     <div>
       <section className="flex flex-row pl-2 mt-2 sm:h-80 lg:h-[30rem]">
@@ -30,6 +36,7 @@ const Fundation = () => {
           </div>
         </div>
         <img
+          loading="lazy"
           className="w-2/4 object-cover"
           src={caballoBlanco}
           alt="caballo"
@@ -43,6 +50,7 @@ const Fundation = () => {
       </section>
       <section className="flex flex-row pr-2 mt-4 sm:h-80 lg:h-[30rem]">
         <img
+          loading="lazy"
           className="w-2/4 object-cover"
           src={manosConejo}
           alt="caballo"
@@ -164,7 +172,14 @@ const Fundation = () => {
             </p>
           </div>
         </div>
-        <img className="mt-2" src="" alt="CUADROS DE COLORES" />
+        <div className="mt-6">
+          <img
+            loading="lazy"
+            className="place-self-center"
+            src={cuadroDeColores}
+            alt="CUADROS DE COLORES"
+          />
+        </div>
       </section>
     </div>
   );

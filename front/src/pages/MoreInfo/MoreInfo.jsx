@@ -2,8 +2,13 @@ import caballoNegro from "../../images/caballoNegro.jpg";
 import chicaMate from "../../images/chicaMate.jpeg";
 import grupoPersonas from "../../images/grupoPersonas.jpeg";
 import caballoAbajo from "../../images/caballoAbajo.jpg";
+import { useEffect } from "react";
 
 const MoreInfo = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" }); // 👈 Esto scrollea al tope
+  }, []);
+
   return (
     <section className="bg-oliveGreen xl:h-full brightness-110 text-center text-white pt-3.5">
       <p className="text-sm lg:text-base px-4 xl:w-[30rem] xl:place-self-center mb-8 lg:mb-10">
@@ -13,7 +18,12 @@ const MoreInfo = () => {
       </p>
       <div className="font-[Sora] px-1 lg:px-6 pb-4 xl:flex xl:w-full">
         <div className="mb-4 lg:mb-7 xl:w-1/4 xl:px-0.5 xl:flex xl:flex-col">
-          <img className="xl:h-56 xl:object-cover" src={caballoNegro} alt="" />
+          <img
+            loading="lazy"
+            className="xl:h-56 xl:object-cover"
+            src={caballoNegro}
+            alt=""
+          />
           <h4 className="font-black text-sm lg:text-xl xl:text-lg xl:px-14 mt-1 xl:my-1.5">
             EVENTOS RESPONSABLES
           </h4>
@@ -25,7 +35,12 @@ const MoreInfo = () => {
           </p>
         </div>
         <div className="mb-4 lg:mb-7 xl:w-1/4 xl:px-0.5 xl:flex xl:flex-col">
-          <img className="xl:h-56 xl:object-cover" src={chicaMate} alt="" />
+          <img
+            loading="lazy"
+            className="xl:h-56 xl:object-cover"
+            src={chicaMate}
+            alt=""
+          />
           <h4 className="font-black text-sm lg:text-xl xl:px-14 mt-1 xl:my-1.5">
             SOLUCIONES DE ASE
           </h4>
@@ -37,7 +52,12 @@ const MoreInfo = () => {
           </p>
         </div>
         <div className="mb-4 lg:mb-7 xl:w-1/4 xl:px-0.5 xl:flex xl:flex-col">
-          <img className="xl:h-56 xl:object-cover" src={grupoPersonas} alt="" />
+          <img
+            loading="lazy"
+            className="xl:h-56 xl:object-cover"
+            src={grupoPersonas}
+            alt=""
+          />
           <h4 className="font-black text-sm lg:text-xl xl:px-14 mt-1 xl:my-1.5">
             TEAM BULDING
           </h4>
@@ -49,7 +69,12 @@ const MoreInfo = () => {
           </p>
         </div>
         <div className="xl:w-1/4 xl:px-0.5 xl:flex xl:flex-col">
-          <img className="xl:h-56 xl:object-cover" src={caballoAbajo} alt="" />
+          <img
+            loading="lazy"
+            className="xl:h-56 xl:object-cover"
+            src={caballoAbajo}
+            alt=""
+          />
           <h4 className="font-black text-sm lg:text-xl xl:px-14 mt-1 xl:my-1.5">
             COLABORA CON PROYECTOS
           </h4>

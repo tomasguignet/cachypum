@@ -35,7 +35,7 @@ const ProjectDetail = () => {
   }
   return (
     <section>
-      <header>
+      <header className="lg:mb-10">
         <div className="relative w-full h-24 sm:h-36 lg:h-44 content-center">
           <img
             className="absolute inset-0 w-full h-full object-cover"

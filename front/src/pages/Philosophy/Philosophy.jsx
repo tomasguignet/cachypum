@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Philosophy = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "instant" }); // 👈 Esto scrollea al tope
+  }, []);
+
   return (
     <div>
       <header className="bg-[url(./images/philosophy.jpg)] h-20 sm:h-32 lg:h-52 bg-cover bg-center text-center content-center">
