@@ -85,16 +85,16 @@
   },
   {
     "id": 2,
-    "title": "Granja educativa",
+    "title": "Granja recreativa",
     "cardImage": "/src/images/granjaeducativa.jpg",
     "cardDescription": "Visita educativa y recreativa a nuestra granja para niños y niñas",
-    "link": "/granja-educativa",
+    "link": "/granja-recreativa",
     "titleImage": "/src/images/DSC_2274.jpg",
     "subtitle": "El legado para nuevas generaciones",
     "importantWord": "generaciones",
     "summary": [
       {
-        "text": "La granja educativa es un programa dirigido a niños y niñas para que ",
+        "text": "La granja recreativa es un programa dirigido a niños y niñas para que ",
         "class": ""
       },
       {
@@ -301,12 +301,5 @@
         "class": ""
       }
     ]
-  },
-  {
-    "id": 7,
-    "title": "Compost biodínamico",
-    "cardImage": "/src/images/compostbiodinamico.jpg",
-    "cardDescription": "Comprometidos con nuestra tierra, producimos compost biodinámico y brindamos talleres formativos de 'Tierra Viva' para fomentar una conexión consciente con el suelo y sus ciclos naturales.",
-    "link": "/compost-biodinamico"
   }
 ]

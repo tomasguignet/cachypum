@@ -88,7 +88,7 @@ const ProjectDetail = () => {
                 <div className="lg:flex lg:gap-x-10">
                   {project.purpose.array?.map((purpose) => (
                     <div key={purpose.title} className="mb-1.5 ">
-                      <h3 className="font-[Sora] font-bold text-[0.95rem] sm:text-lg lg:text-2xl lg:leading-6 lg:mb-1">
+                      <h3 className="font-[Sora] font-bold text-[0.95rem] sm:text-lg lg:text-lg lg:leading-6 lg:mb-1">
                         {purpose.title}
                       </h3>
                       <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-justify mb-2.5">
