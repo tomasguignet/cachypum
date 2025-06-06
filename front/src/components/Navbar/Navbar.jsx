@@ -23,7 +23,7 @@ const Navbar = () => {
       </Link>
 
       {/* Nav links visibles solo en PC */}
-      <nav className="hidden lg:flex flex-row gap-x-10 lg:gap-x-6 font-[Ubuntu] font-bold text-[0.85rem] xl:text-[0.95rem] text-black/80 mr-4 pb-6">
+      <nav className="hidden lg:flex flex-row gap-x-10 lg:gap-x-6 font-[Ubuntu] font-bold text-[0.85rem] xl:text-[0.95rem] text-[#434242] mr-4 pb-6">
         <Link to="/fundation">FUNDACIÓN</Link>
         <a href="#projects">PROGRAMAS Y PROYECTOS</a>
         <Link to="/empresas">EMPRESAS</Link>

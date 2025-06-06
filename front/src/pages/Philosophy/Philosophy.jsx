@@ -15,7 +15,7 @@ const Philosophy = () => {
           alquimia
         </h1>
       </header>
-      <section className="text-[0.65rem] sm:text-base lg:text-lg sm:flex sm:flex-row sm:gap-x-5 lg:gap-x-12 xl:gap-x-24 mt-4 sm:mt-7 lg:mt-10 xl:mt-16 mx-2 sm:mx-4 lg:mx-8 xl:mx-16 text-justify">
+      <section className="text-[0.65rem] sm:text-base lg:text-lg sm:flex sm:flex-row sm:gap-x-5 lg:gap-x-12 xl:gap-x-24 mt-4 sm:mt-7 lg:mt-10 xl:mt-16 mx-2 sm:mx-4 lg:mx-8 xl:mx-16 text-justify text-[#434242]">
         <p>
           <p className="mb-2 lg:mb-3.5">
             El sueño estoy convencido que es totalmente subjetivo su

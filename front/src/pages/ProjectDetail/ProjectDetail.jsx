@@ -55,7 +55,7 @@ const ProjectDetail = () => {
           <h2 className="lg:w-1/2 lg:px-3 xl:pr-48  mb-3 text-lg sm:text-xl lg:text-2xl leading-5 lg:content-center lg:text-left">
             {resaltarPalabra(project.subtitle, project.importantWord)}
           </h2>
-          <p className="lg:w-1/2 text-justify text-xs sm:text-base lg:text-lg lg:leading-6">
+          <p className="lg:w-1/2 text-justify text-xs sm:text-base lg:text-lg lg:leading-6 text-[#434242]">
             {project.summary?.map((line, i) => (
               <span key={i} className={line.class}>
                 {line.text}
@@ -76,7 +76,7 @@ const ProjectDetail = () => {
               </div>
               {Array.isArray(project.purpose.purposeText) ? (
                 <div className="whitespace-pre-line">
-                  <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base">
+                  <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-[#434242]">
                     {project.purpose.purposeText?.map((line, i) => (
                       <span key={i} className={line.class}>
                         {line.text}
@@ -87,7 +87,7 @@ const ProjectDetail = () => {
               ) : (
                 <div className="lg:flex lg:gap-x-10">
                   {project.purpose.array?.map((purpose) => (
-                    <div key={purpose.title} className="mb-1.5 ">
+                    <div key={purpose.title} className="mb-1.5 text-[#434242]">
                       <h3 className="font-[Sora] font-bold text-[0.95rem] sm:text-lg lg:text-lg lg:leading-6 lg:mb-1">
                         {purpose.title}
                       </h3>
@@ -125,7 +125,7 @@ const ProjectDetail = () => {
                 {project.proposal.proposalList ? (
                   <ul className="px-3 pl-4">
                     {project.proposal.proposalList.map((proposal) => (
-                      <li className="text-[0.59rem] sm:text-[0.76rem] lg:text-base list-disc">
+                      <li className="text-[0.59rem] sm:text-[0.76rem] lg:text-base list-disc text-[#434242]">
                         <h5 className="inline font-bold">{proposal.title}</h5>
                         <p className="inline">{proposal.text}</p>
                       </li>
@@ -133,7 +133,7 @@ const ProjectDetail = () => {
                   </ul>
                 ) : (
                   <div className="whitespace-pre-line">
-                    <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base">
+                    <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-[#434242]">
                       {project.proposal.proposalText?.map((line, i) => (
                         <span key={i} className={line.class}>
                           {line.text}
@@ -167,7 +167,7 @@ const ProjectDetail = () => {
                   proyecto
                 </h3>
               </div>
-              <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base mb-2">
+              <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base mb-2 text-[#434242]">
                 {project.stateOfProject.text}
               </p>
             </div>
@@ -191,7 +191,7 @@ const ProjectDetail = () => {
               </h3>
             </div>
             <div className="lg:flex">
-              <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-center lg:text-left lg:w-3/5 mb-1.5">
+              <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-center lg:text-left lg:w-3/5 mb-1.5 text-[#434242]">
                 {project.team.text}
               </p>
               <img
