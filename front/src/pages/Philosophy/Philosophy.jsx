@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import BackArrow from "../../components/BackArrow/BackArrow";
 
 const Philosophy = () => {
   useEffect(() => {
@@ -7,6 +8,7 @@ const Philosophy = () => {
 
   return (
     <div>
+      <BackArrow />
       <header className="bg-[url(./images/philosophy.jpg)] h-20 sm:h-32 lg:h-52 bg-cover bg-center text-center content-center">
         <h1 className="font-[DM_Serif_Text] text-xl sm:text-2xl lg:text-[2.6rem] text-white inline">
           {"la "}
@@ -15,7 +17,7 @@ const Philosophy = () => {
           alquimia
         </h1>
       </header>
-      <section className="text-[0.65rem] sm:text-base lg:text-lg sm:flex sm:flex-row sm:gap-x-5 lg:gap-x-12 xl:gap-x-24 mt-4 sm:mt-7 lg:mt-10 xl:mt-16 mx-2 sm:mx-4 lg:mx-8 xl:mx-16 text-justify text-[#434242]">
+      <section className="text-[0.65rem] sm:text-base lg:text-lg sm:flex sm:flex-row sm:gap-x-5 lg:gap-x-12 xl:gap-x-24 mt-4 sm:mt-7 lg:mt-10 xl:mt-16 mx-2 sm:mx-4 lg:mx-8 xl:mx-16 text-justify text-[#435360]">
         <p>
           <p className="mb-2 lg:mb-3.5">
             El sueño estoy convencido que es totalmente subjetivo su

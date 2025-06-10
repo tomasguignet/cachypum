@@ -3,6 +3,7 @@ import chicaMate from "../../images/chicaMate.jpeg";
 import grupoPersonas from "../../images/grupoPersonas.jpeg";
 import caballoAbajo from "../../images/caballoAbajo.jpg";
 import { useEffect } from "react";
+import BackArrow from "../../components/BackArrow/BackArrow";
 
 const MoreInfo = () => {
   useEffect(() => {
@@ -11,6 +12,7 @@ const MoreInfo = () => {
 
   return (
     <section className="bg-oliveGreen xl:h-full brightness-110 text-center text-white pt-3.5">
+      <BackArrow />
       <p className="text-sm lg:text-base px-4 xl:w-[30rem] xl:place-self-center mb-8 lg:mb-10">
         En nuestra <strong>fundación</strong>, diseñamos experiencias
         significativas para empresas que desean fortalecer su compromiso con la

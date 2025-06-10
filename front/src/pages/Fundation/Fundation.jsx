@@ -2,6 +2,7 @@ import caballoBlanco from "../../images/caballoBlanco.jpeg";
 import manosConejo from "../../images/manosConejo.jpeg";
 import cuadroDeColores from "../../images/cuadroDeColores.png";
 import { useEffect } from "react";
+import BackArrow from "../../components/BackArrow/BackArrow";
 
 const Fundation = () => {
   useEffect(() => {
@@ -10,6 +11,7 @@ const Fundation = () => {
 
   return (
     <div>
+      <BackArrow />
       <section className="flex flex-row pl-2 mt-2 sm:h-80 lg:h-[30rem]">
         <div className="w-2/4 sm:flex sm:flex-col sm:justify-center sm:px-3 lg:px-7">
           <h1 className="font-[DM_Serif_Text] text-base sm:text-2xl lg:text-[2.2rem] text-oliveGreen leading-2 sm:leading-4 lg:leading-6">
