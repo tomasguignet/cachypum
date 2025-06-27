@@ -176,7 +176,7 @@
     "importantWord": "natural",
     "summary": [
       {
-        "text": "Buscamos generar un entorno de transformación y reconocimiento, donde podamos habitar el cuerpo con presencia, permanecer en la emoción y reconectar con la sabiduría de la naturaleza.  Un espacio donde el contacto con los animales, las plantas y la tierra nos ayude a reencontrarnos con nuestros ritmos internos y a recuperar el equilibrio.",
+        "text": "En un entorno global marcado por la aceleración constante, la transformación digital y la creciente complejidad social, promovemos un enfoque integral del bienestar que permita habitar el presente con conciencia, adaptabilidad y sentido.",
         "class": ""
       }
     ],
@@ -184,15 +184,15 @@
       "image": "/src/images/imagenPrueba.png",
       "purposeText": [
         {
-          "text": "Nuestro propósito es volver, regresar.  Es desacelerar, resincronizarnos con los ritmos de la naturaleza, reconocer el presente, habitar el cuerpo y permitirnos sentir sin prisa quedándonos en la emoción.  En este camino, ",
+          "text": "Nuestro propósito es generar experiencias terapéuticas y formativas que fortalezcan competencias clave para la vida contemporánea: la creatividad, la autorregulación emocional, el pensamiento flexible y el vínculo humano.\n",
           "class": ""
         },
         {
-          "text": "el rol del terapeuta es acompañar y sostener ",
-          "class": "font-bold"
+          "text": "A través de propuestas sensoriales, expresivas y relacionales, ofrecemos espacios donde el cuerpo, la emoción y la naturaleza se integran como pilares para el desarrollo personal y comunitario.\n",
+          "class": ""
         },
         {
-          "text": "cada proceso con respeto y contención, brindando un espacio seguro para la transformación.\nContamos con un equipo de profesionales de la salud, terapeutas y psicólogos capacitados que garantizan un enfoque terapéutico integral, donde cada experiencia se vive desde la presencia y el cuidado.",
+          "text": "Contamos con un equipo interdisciplinario de profesionales de la salud, terapeutas y psicólogos que acompañan cada proceso con rigurosidad, cuidado y compromiso. Cada experiencia se construye desde la presencia y el respeto, garantizando un entorno seguro y significativo para el crecimiento individual y colectivo.",
           "class": ""
         }
       ]
@@ -260,7 +260,7 @@
       { "text": "\nSe propone una ", "class": "" },
       { "text": "vida en comunidad ", "class": "font-bold" },
       {
-        "text": "con participación activa de los residentes en la dinámica de la vida diaria desde un dispositivo terapéutico específico.",
+        "text": "para personas con discapacidad con participación activa en la dinámica de la vida diaria desde un dispositivo terapéutico específico.",
         "class": ""
       }
     ],

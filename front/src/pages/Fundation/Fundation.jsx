@@ -27,9 +27,10 @@ const Fundation = () => {
               <strong> actividades sanitarias, educativas y sociales.</strong>
             </p>
             <p className="mb-1.5">
-              Potenciamos el desarrollo de habilidades y conocimientos con
-              enfoques lúdicos, recreativos y vivenciales, en un ambiente que
-              estimula los sentidos y promueve la inclusión socio-laboral.
+              Potenciamos el desarrollo de habilidades y aprendizajes mediante
+              enfoques lúdicos, recreativos y vivenciales, en un entorno que
+              estimula los sentidos y promueve la contención y la inclusión
+              socio-laboral.
             </p>
             <p className="">
               Proporcionamos un entorno de apoyo que fomenta una vida plena y

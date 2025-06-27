@@ -14,9 +14,14 @@ const MoreInfo = () => {
     <section className="bg-oliveGreen xl:h-full brightness-110 text-center text-white pt-3.5">
       <BackArrow />
       <p className="text-sm lg:text-base px-4 xl:w-[30rem] xl:place-self-center mb-8 lg:mb-10">
-        En nuestra <strong>fundación</strong>, diseñamos experiencias
-        significativas para empresas que desean fortalecer su compromiso con la
-        <strong> Responsabilidad Social Empresarial</strong> (RSE).
+        <strong>Co-creamos </strong>
+        propuestas vivenciales con
+        <strong>
+          {" "}
+          empresas que buscan integrar el bienestar, la inclusion y el
+          compromiso comunitario
+        </strong>
+        como parte de su identidad.
       </p>
       <div className="font-[Sora] px-1 lg:px-6 pb-4 xl:flex xl:w-full">
         <div className="mb-4 lg:mb-7 xl:w-1/4 xl:px-0.5 xl:flex xl:flex-col">
@@ -61,13 +66,13 @@ const MoreInfo = () => {
             alt=""
           />
           <h4 className="font-black text-sm lg:text-xl xl:px-14 mt-1 xl:my-1.5">
-            TEAM BULDING
+            BIENESTAR
           </h4>
           <p className="font-light text-xs lg:text-base xl:text-[0.9rem] xl:px-4">
             A través de dinámicas al aire libre, experiencias con animales y
-            propuestas innovadoras, creamos jornadas que potencian la cohesión y
-            el bienestar de los equipos. ¡Transformá la manera de conectar con
-            tu equipo!
+            propuestas innovadoras, creamos jornadas que potencian la cohesión,
+            creatividad y el bienestar de los equipos. ¡Transformá la manera de
+            conectar con tu equipo!
           </p>
         </div>
         <div className="xl:w-1/4 xl:px-0.5 xl:flex xl:flex-col">
