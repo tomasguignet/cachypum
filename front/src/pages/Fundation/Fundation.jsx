@@ -1,5 +1,5 @@
 import caballoBlanco from "../../images/caballoBlanco.jpeg";
-import manosConejo from "../../images/manosConejo.jpeg";
+import manosHombre from "../../images/manoshombre.jpg";
 import cuadroDeColores from "../../images/cuadroDeColores.png";
 import { useEffect } from "react";
 import BackArrow from "../../components/BackArrow/BackArrow";
@@ -55,7 +55,7 @@ const Fundation = () => {
         <img
           loading="lazy"
           className="w-2/4 object-cover"
-          src={manosConejo}
+          src={manosHombre}
           alt="caballo"
           style={{
             maskImage:
@@ -73,7 +73,7 @@ const Fundation = () => {
           </h1>
           <div className="text-[0.5rem] sm:text-[0.73rem] lg:text-base text-justify">
             <p className="mt-1.5 mb-1.5">
-              Nuestra visión es ser una
+              Nuestra visión es ser una{" "}
               <strong>
                 entidad de referencia que promueva una sociedad justa y
                 responsable
@@ -87,11 +87,11 @@ const Fundation = () => {
               de vulnerabilidad.
             </p>
             <p className="">
-              Estamos comprometidos en
+              Estamos comprometidos en{" "}
               <strong>
                 crear un entorno donde cada individuo pueda alcanzar su máximo
                 potencial
-              </strong>
+              </strong>{" "}
               en un ambiente de respeto y apoyo mutuo, en sinergia con la
               naturaleza.
             </p>

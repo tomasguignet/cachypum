@@ -67,7 +67,7 @@ const ProjectDetail = () => {
         </div>
         {project.purpose && (
           <div className="mt-6 lg:flex lg:gap-x-5">
-            <div className="lg:w-3/5 lg:content-center">
+            <div className="lg:w-4/5 lg:content-center">
               <div className="mb-0.5 lg:mb-2.5 text-center lg:text-left text-oliveGreen">
                 <h3 className="inline font-[DM_Serif_Text font-normal text-base sm:text-xl lg:text-2xl">
                   {"nuestro "}
@@ -89,7 +89,10 @@ const ProjectDetail = () => {
               ) : (
                 <div className="lg:flex lg:gap-x-10">
                   {project.purpose.array?.map((purpose) => (
-                    <div key={purpose.title} className="mb-1.5 text-[#435360]">
+                    <div
+                      key={purpose.title}
+                      className="mb-1.5 text-[#435360] lg:mr-8"
+                    >
                       <h3 className="font-[Sora] font-bold text-[0.95rem] sm:text-lg lg:text-lg lg:leading-6 lg:mb-1">
                         {purpose.title}
                       </h3>
@@ -193,11 +196,11 @@ const ProjectDetail = () => {
               </h3>
             </div>
             <div className="lg:flex">
-              <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-center lg:text-left lg:w-3/5 mb-1.5 text-[#435360]">
+              <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-center lg:text-left lg:w-3/5 mb-1.5 lg:pr-12 text-[#435360]">
                 {project.team.text}
               </p>
               <img
-                className=" place-self-center object-cover w-48 lg:w-2/5 h-44 lg:h-60"
+                className=" place-self-center object-cover w-48 lg:w-2/5 h-44 lg:h-72"
                 src={project.team.image}
                 alt=""
               />

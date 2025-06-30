@@ -5,7 +5,7 @@ import Footer from "./../../components/Footer/Footer";
 import { Link } from "react-router-dom";
 import cultivo from "../../images/cultivo.jpg";
 import projects from "../../data/projects.json";
-import seParte from "../../images/separte.jpeg";
+import seParte from "../../images/quierosabermas.png";
 /* import backImage from "../../images/fondoHome.jpeg"; */
 
 const Home = () => {

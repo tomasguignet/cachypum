@@ -1,7 +1,7 @@
 import caballoNegro from "../../images/caballoNegro.jpg";
 import chicaMate from "../../images/chicaMate.jpeg";
-import grupoPersonas from "../../images/grupoPersonas.jpeg";
-import caballoAbajo from "../../images/caballoAbajo.jpg";
+import manosJuntas from "../../images/manosjuntas.jpg";
+import colaboraConProyectos from "../../images/colaboraconproyectos.jpg";
 import { useEffect } from "react";
 import BackArrow from "../../components/BackArrow/BackArrow";
 
@@ -62,7 +62,7 @@ const MoreInfo = () => {
           <img
             loading="lazy"
             className="xl:h-56 xl:object-cover"
-            src={grupoPersonas}
+            src={manosJuntas}
             alt=""
           />
           <h4 className="font-black text-sm lg:text-xl xl:px-14 mt-1 xl:my-1.5">
@@ -79,7 +79,7 @@ const MoreInfo = () => {
           <img
             loading="lazy"
             className="xl:h-56 xl:object-cover"
-            src={caballoAbajo}
+            src={colaboraConProyectos}
             alt=""
           />
           <h4 className="font-black text-sm lg:text-xl xl:px-14 mt-1 xl:my-1.5">

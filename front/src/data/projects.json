@@ -5,7 +5,7 @@
     "cardImage": "/src/images/centrodedia.jpg",
     "cardDescription": "Asistencia terapéutica, educativa y recreativa a personas adultas con discapacidad",
     "link": "/centro-de-dia",
-    "titleImage": "/src/images/centro-de-dia.jpg",
+    "titleImage": "/src/images/centrodedia2.jpg",
     "subtitle": "Bienvenidos al corazón de fundación Cachypum",
     "importantWord": "corazón",
     "summary": [
@@ -89,7 +89,7 @@
     "cardImage": "/src/images/granjaeducativa.jpg",
     "cardDescription": "Visita educativa y recreativa a nuestra granja para niños y niñas",
     "link": "/granja-recreativa",
-    "titleImage": "/src/images/DSC_2274.jpg",
+    "titleImage": "/src/images/oveja.jpg",
     "subtitle": "El legado para nuevas generaciones",
     "importantWord": "generaciones",
     "summary": [
@@ -226,7 +226,7 @@
   {
     "id": 4,
     "title": "Extensión social",
-    "cardImage": "/src/images/extensionsocial.jpeg",
+    "cardImage": "/src/images/riego.jpg",
     "cardDescription": "Red comunitaria para gestionar trámites, salud y donaciones",
     "link": "/extension-social",
     "titleImage": "/src/images/grupoPersonas.jpeg",
@@ -242,7 +242,7 @@
   {
     "id": 5,
     "title": "Hogar sustentable",
-    "cardImage": "/src/images/hogarsustentable.jpeg",
+    "cardImage": "/src/images/hogarsustentable.jpg",
     "cardDescription": "Construcción de un hogar para una comunidad sustentable de personas con discapacidad",
     "link": "/hogar-sustentable",
     "titleImage": "/src/images/hogarDeVida.jpeg",
@@ -265,7 +265,7 @@
       }
     ],
     "proposal": {
-      "image": "/src/images/imagenPrueba.png",
+      "image": "/src/images/hogarsustentable.jpg",
       "proposalText": [
         {
           "text": "Vivir y trabajar en un modelo de vida compartida, ",
@@ -282,7 +282,7 @@
       ]
     },
     "stateOfProject": {
-      "image": "/src/images/imagenPrueba.png",
+      "image": "/src/images/fonplata.png",
       "text": "El Hogar de Vida Sustentable se encuentra en proceso de desarrollo, a la espera de los desembolsos correspondientes para avanzar en su construcción y puesta en marcha. Este espacio será un refugio de bienestar, integración y conexión con la naturaleza, basado en principios de sustentabilidad y autocuidado."
     }
   },
