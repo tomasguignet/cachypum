@@ -9,7 +9,7 @@ const Philosophy = () => {
   return (
     <div>
       <BackArrow />
-      <header className="bg-[url(./images/philosophy.jpg)] h-20 sm:h-32 lg:h-52 bg-cover bg-center text-center content-center">
+      <header className="bg-[url(./images/alquimia.jpg)] h-20 sm:h-32 lg:h-52 bg-cover bg-center text-center content-center">
         <h1 className="font-[DM_Serif_Text] text-xl sm:text-2xl lg:text-[2.6rem] text-white inline">
           {"la "}
         </h1>
@@ -90,7 +90,7 @@ const Philosophy = () => {
           </p>
         </p>
       </section>
-      <h2 className="mt-2 mb-1 lg:mb-2 mr-3 lg:mr-5 text-base sm:text-2xl lg:text-3xl text-right">
+      <h2 className="mt-2 mb-1 lg:mb-2 mr-3 lg:mr-5 text-lg sm:text-3xl lg:text-5xl text-right font-[Corinthia] mx-2 sm:mx-4 lg:mx-8 xl:mx-16">
         Marcelo Jury
       </h2>
     </div>

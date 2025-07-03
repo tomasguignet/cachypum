@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Centro de día",
-    "cardImage": "/src/images/centrodedia.jpg",
+    "cardImage": "/src/images/centrodedia3.jpg",
     "cardDescription": "Asistencia terapéutica, educativa y recreativa a personas adultas con discapacidad",
     "link": "/centro-de-dia",
     "titleImage": "/src/images/centrodedia2.jpg",
@@ -10,15 +10,7 @@
     "importantWord": "corazón",
     "summary": [
       {
-        "text": "En nuestro centro recibimos a personas de 18 a 60 años con discapacidad, y es en donde, a través del desarrollo de actividades asistenciales, recreativas, educativas, terapéuticas y de formación laboral, ",
-        "class": ""
-      },
-      {
-        "text": "promovemos espacios donde puedan maximizar el desarrollo de sus potencialidades y autonomía ",
-        "class": "font-bold"
-      },
-      {
-        "text": "interactuando en forma directa y permanente con su entorno familiar, social y natural.",
+        "text": "Trabajamos para favorecer el desarrollo pleno de personas entre 18 y 60 años con discapacidad leve y moderada, brindándoles herramientas para su participación activa en la comunidad y su contribución a una sociedad integradora, donde todos tengan la oportunidad de alcanzar su máximo potencial.",
         "class": ""
       }
     ],
@@ -26,15 +18,15 @@
       "array": [
         {
           "title": "Fomentar la autonomía",
-          "text": "Brindamos herramientas y espacios que promuevan el desarrollo de habilidades prácticas y sociales.  A través de talleres, actividades recreativas y ocupacionales, buscamos fortalecer su capacidad de tomar decisiones, desenvolverse en diferentes entornos y enfrentar desafíos cotidianos con mayor seguridad e independencia."
+          "text": "Brindamos herramientas y espacios que promuevan el desarrollo de habilidades prácticas y sociales. A través de talleres, actividades recreativas y ocupacionales, buscamos fortalecer su capacidad de tomar decisiones, desenvolverse en diferentes entornos y enfrentar desafíos cotidianos con mayor seguridad e independencia."
         },
         {
           "title": "Estimular el desarrollo cognitivo",
-          "text": "Promovemos el desarrollo cognitivo mediante actividades y talleres diseñados para estimular la memoria, la atención, la resolución de problemas y el pensamiento crítico.  Nuestro objetivo es fortalecer las capacidades mentales de cada participante, fomentando un aprendizaje constante y la aplicación de estas habilidades en su vida diaria."
+          "text": "Promovemos el desarrollo cognitivo mediante actividades y talleres diseñados para estimular la memoria, la atención, la resolución de problemas y el pensamiento crítico. Nuestro objetivo es fortalecer las capacidades mentales de cada participante, fomentando un aprendizaje constante y la aplicación de estas habilidades en su vida diaria."
         },
         {
           "title": "Inclusión sociolaboral",
-          "text": "Trabajamos para fomentar la inclusión sociolaboral de nuestros participantes.  A través de talleres ocupacionales, actividades en equipo y proyectos productivos, buscamos desarrollar habilidades laborales, fortalecer la autoestima y promover su participación activa en la comunidad."
+          "text": "Trabajamos para fomentar la inclusión sociolaboral de nuestros participantes. A través de talleres ocupacionales, actividades en equipo y proyectos productivos, buscamos desarrollar habilidades laborales, fortalecer la autoestima y promover su participación activa en la comunidad."
         }
       ]
     },
@@ -86,7 +78,7 @@
   {
     "id": 2,
     "title": "Granja recreativa",
-    "cardImage": "/src/images/granjaeducativa.jpg",
+    "cardImage": "/src/images/granjarecreativa.jpg",
     "cardDescription": "Visita educativa y recreativa a nuestra granja para niños y niñas",
     "link": "/granja-recreativa",
     "titleImage": "/src/images/oveja.jpg",
@@ -102,7 +94,7 @@
         "class": "font-bold"
       },
       {
-        "text": ", la recreación y la experiencia directa con animales y plantas.",
+        "text": ", la recreación y la experiencia directa con animales y plantas.\n",
         "class": ""
       },
       {
@@ -168,8 +160,8 @@
   {
     "id": 3,
     "title": "Bienestar y naturaleza",
-    "cardImage": "/src/images/bienestarynaturaleza.jpeg",
-    "cardDescription": "Nos enfocamos en terapias con y en la naturaleza, combinando la sabiduría de los elementos con técnicas especializadas que promueven el equilibrio físico, mental y emocional.",
+    "cardImage": "/src/images/bienestarynaturaleza.jpg",
+    "cardDescription": "Nos enfocamos en actividades con y en la naturaleza, combinando la sabiduría de los elementos con técnicas especializadas que promueven el equilibrio físico, mental y emocional. ",
     "link": "/bienestar-y-naturaleza",
     "titleImage": "/src/images/caballoNegro.jpg",
     "subtitle": "Creemos en la sabiduría natural",
@@ -181,7 +173,6 @@
       }
     ],
     "purpose": {
-      "image": "/src/images/imagenPrueba.png",
       "purposeText": [
         {
           "text": "Nuestro propósito es generar experiencias terapéuticas y formativas que fortalezcan competencias clave para la vida contemporánea: la creatividad, la autorregulación emocional, el pensamiento flexible y el vínculo humano.\n",
@@ -198,7 +189,7 @@
       ]
     },
     "proposal": {
-      "image": "/src/images/imagenPrueba.png",
+      "image": "/src/images/bienestarynaturaleza.jpg",
       "proposalList": [
         {
           "title": "Terapias Asistidas con Caballos: ",
@@ -229,7 +220,7 @@
     "cardImage": "/src/images/riego.jpg",
     "cardDescription": "Red comunitaria para gestionar trámites, salud y donaciones",
     "link": "/extension-social",
-    "titleImage": "/src/images/grupoPersonas.jpeg",
+    "titleImage": "/src/images/manosagarradas.png",
     "subtitle": "Nuestra manera es comunitaria",
     "importantWord": "comunitaria",
     "summary": [
@@ -254,10 +245,10 @@
         "class": ""
       },
       {
-        "text": "innovación tecnológica y energías renovables.",
+        "text": "innovación tecnológica y energías renovables.\n",
         "class": "font-bold"
       },
-      { "text": "\nSe propone una ", "class": "" },
+      { "text": "Se propone una ", "class": "" },
       { "text": "vida en comunidad ", "class": "font-bold" },
       {
         "text": "para personas con discapacidad con participación activa en la dinámica de la vida diaria desde un dispositivo terapéutico específico.",
@@ -282,8 +273,8 @@
       ]
     },
     "stateOfProject": {
-      "image": "/src/images/fonplata.png",
-      "text": "El Hogar de Vida Sustentable se encuentra en proceso de desarrollo, a la espera de los desembolsos correspondientes para avanzar en su construcción y puesta en marcha. Este espacio será un refugio de bienestar, integración y conexión con la naturaleza, basado en principios de sustentabilidad y autocuidado."
+      "image": "/src/images/fonplata2.png",
+      "text": "El Hogar de Vida Sustentable se encuentra en proceso de desarrollo, a la espera de los desembolsos correspondientes para avanzar en su construcción y puesta en marcha. Este espacio será un refugio de bienestar, integración y conexión con la naturaleza, basado en principios de sustentabilidad y autocuidado.\nApoya este proyecto: FONPLATA."
     }
   },
   {
@@ -300,6 +291,7 @@
         "text": "Trabajamos con transporte propio, puerta a puerta, para garantizar el cuidado y la seguridad de cada persona. Contamos con personal idóneo capacitado, trato amable y responsable.",
         "class": ""
       }
-    ]
+    ],
+    "summaryImage": "/src/images/logotriunfoseguros.png"
   }
 ]

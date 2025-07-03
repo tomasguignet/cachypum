@@ -38,9 +38,10 @@ const Home = () => {
             Somos fundación Cachypum
           </h4>
           <p className="font-[Sora] font-medium text-[0.70rem] sm:text-base px-2.5 sm:w-2/4 sm:px-10">
-            Una organizacion no gubernamental y sin fines de lucro, que trabaja
-            activamente para mejorar la calidad de vida de las personas en
-            situacion de vulnerabilidad
+            Una organización no gubernamental y sin fines de lucro que trabaja
+            activamente para mejorar la calidad de vida de todas las personas,
+            con especial compromiso hacia quienes atraviesan contextos de
+            vulnerabilidad
           </p>
 
           <Link
@@ -68,7 +69,7 @@ const Home = () => {
             </span>
           </div>
           <div className="flex flex-col items-center text-center mt-8 sm:mt-10">
-            <p className="text-[0.65rem] sm:text-lg lg:text-xl sm:w-3/4 xl:w-2/4 sm:px-20 lg:px-28 text-black/60 font-[Montserrat] font-medium px-5">
+            <p className="text-[0.65rem] sm:text-lg lg:text-xl sm:w-3/4 xl:w-3/5 sm:px-20 lg:px-28 text-black/60 font-[Montserrat] font-medium px-5">
               Generamos espacios que mejoran la calidad de vida y el bienestar
               integral mediante actividades sanitarias, terapeuticas, educativas
               y sociales.

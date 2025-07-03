@@ -73,27 +73,19 @@ const Fundation = () => {
           </h1>
           <div className="text-[0.5rem] sm:text-[0.73rem] lg:text-base text-justify">
             <p className="mt-1.5 mb-1.5">
-              Nuestra visión es ser una{" "}
-              <strong>
-                entidad de referencia que promueva una sociedad justa y
-                responsable
-              </strong>
-              , con igualdad de oportunidades y respeto a la diversidad.
+              Nuestra <strong>visión</strong> es ser una entidad de referencia
+              en la promoción de una sociedad justa, con igualdad de
+              oportunidades y respeto a la diversidad.
             </p>
             <p className="mb-1.5">
-              Buscamos <strong> fortalecer el tejido social </strong> mediante
-              la integración, inclusión y movilidad social de niños, jóvenes,
-              mujeres, adultos mayores y personas con discapacidad en situación
-              de vulnerabilidad.
+              Buscamos fortalecer el tejido social mediante la integración,
+              inclusión y movilidad social de niños, jóvenes, mujeres, personas
+              adultas mayores y personas con discapacidad.
             </p>
             <p className="">
-              Estamos comprometidos en{" "}
-              <strong>
-                crear un entorno donde cada individuo pueda alcanzar su máximo
-                potencial
-              </strong>{" "}
-              en un ambiente de respeto y apoyo mutuo, en sinergia con la
-              naturaleza.
+              Estamos comprometidos con la creación de un entorno donde cada
+              individuo pueda alcanzar su máximo potencial en un ambiente de
+              respeto y apoyo mutuo, en sinergia con la naturaleza.
             </p>
           </div>
         </div>
@@ -135,7 +127,7 @@ const Fundation = () => {
           </div>
         </div>
       </section>
-      <section className="mt-4 sm:mt-8 lg:mt-10">
+      <section className="mt-4 sm:mt-8 lg:mt-20">
         <div className="text-center mb-1.5 lg:mb-3">
           <h1 className="font-[DM_Serif_Text] text-base sm:text-2xl lg:text-[2.2rem] text-lightOrange inline">
             nuestros

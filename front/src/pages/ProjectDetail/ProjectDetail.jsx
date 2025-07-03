@@ -38,7 +38,7 @@ const ProjectDetail = () => {
     <section>
       <header className="lg:mb-10">
         <BackArrow />
-        <div className="relative w-full h-24 sm:h-36 lg:h-44 content-center">
+        <div className="relative w-full h-24 sm:h-36 lg:h-56 content-center">
           <img
             className="absolute inset-0 w-full h-full object-cover"
             src={project.titleImage}
@@ -52,22 +52,30 @@ const ProjectDetail = () => {
           </div>
         </div>
       </header>
-      <div className="px-2 xl:px-10 2xl:px-14 mb-2.5">
-        <div className="flex flex-col lg:flex-row text-center mt-2 sm:mt-4 lg:mt-6 lg:px-8">
-          <h2 className="lg:w-1/2 lg:px-3 xl:pr-48  mb-3 text-lg sm:text-xl lg:text-2xl leading-5 lg:content-center lg:text-left">
+      <div className="lg:w-4/5 lg:flex lg:flex-col lg:justify-self-center px-2 mb-2.5">
+        <div className="flex flex-col lg:flex-row text-center mt-2 sm:mt-4 lg:mt-6 lg:mb-10 lg:pl-8">
+          <h2 className="lg:w-1/2 lg:px-3 lg:pr-10 xl:pr-10 2xl:pr-30  mb-3 text-lg sm:text-xl lg:text-2xl leading-5 lg:content-center lg:text-left lg:place-self-start lg:mt-8">
             {resaltarPalabra(project.subtitle, project.importantWord)}
           </h2>
-          <p className="lg:w-1/2 text-justify text-xs sm:text-base lg:text-lg lg:leading-6 text-[#435360]">
-            {project.summary?.map((line, i) => (
-              <span key={i} className={line.class}>
-                {line.text}
-              </span>
-            ))}
-          </p>
+          <div className="flex flex-col lg:w-2/3 whitespace-pre-line">
+            <p className="lg:w-4/5 text-justify text-xs sm:text-base lg:text-lg lg:leading-6 text-[#435360]">
+              {project.summary?.map((line, i) => (
+                <span key={i} className={line.class}>
+                  {line.text}
+                </span>
+              ))}
+            </p>
+            {project.summaryImage && (
+              <img
+                className="w-50 sm:w-60 self-center lg:w-64 lg:self-end lg:mr-10"
+                src={project.summaryImage}
+              />
+            )}
+          </div>
         </div>
         {project.purpose && (
           <div className="mt-6 lg:flex lg:gap-x-5">
-            <div className="lg:w-4/5 lg:content-center">
+            <div className=" lg:content-center">
               <div className="mb-0.5 lg:mb-2.5 text-center lg:text-left text-oliveGreen">
                 <h3 className="inline font-[DM_Serif_Text font-normal text-base sm:text-xl lg:text-2xl">
                   {"nuestro "}
@@ -78,7 +86,7 @@ const ProjectDetail = () => {
               </div>
               {Array.isArray(project.purpose.purposeText) ? (
                 <div className="whitespace-pre-line">
-                  <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-[#435360]">
+                  <p className="lg:w-4/6 text-[0.59rem] sm:text-[0.76rem] lg:text-base text-[#435360]">
                     {project.purpose.purposeText?.map((line, i) => (
                       <span key={i} className={line.class}>
                         {line.text}
@@ -96,7 +104,7 @@ const ProjectDetail = () => {
                       <h3 className="font-[Sora] font-bold text-[0.95rem] sm:text-lg lg:text-lg lg:leading-6 lg:mb-1">
                         {purpose.title}
                       </h3>
-                      <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-justify mb-2.5">
+                      <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base mb-2.5">
                         {purpose.text}
                       </p>
                     </div>
@@ -116,7 +124,7 @@ const ProjectDetail = () => {
           </div>
         )}
         {project.proposal && (
-          <div className="mt-6 lg:flex lg:gap-x-4">
+          <div className="mt-6 lg:mt-12 lg:flex lg:gap-x-4">
             <div className="lg:w-3/5 lg:content-center">
               <div className="mb-0.5 lg:mb-2 text-center lg:text-left text-oliveGreen">
                 <h3 className="inline font-[DM_Serif_Text font-normal text-base sm:text-xl lg:text-2xl">
@@ -162,7 +170,7 @@ const ProjectDetail = () => {
           </div>
         )}
         {project.stateOfProject && (
-          <div className="mt-10 lg:flex lg:gap-x-4">
+          <div className="mt-20 lg:flex lg:gap-x-4">
             <div className="lg:w-3/5 lg:content-center">
               <div className="mb-0.5 text-center lg:text-left text-oliveGreen">
                 <h3 className="inline font-[DM_Serif_Text font-normal text-base sm:text-xl lg:text-2xl">
@@ -176,9 +184,9 @@ const ProjectDetail = () => {
                 {project.stateOfProject.text}
               </p>
             </div>
-            <div className="lg:w-2/5">
+            <div className="lg:w-2/5 content-center">
               <img
-                className="justify-self-center lg:w-4/5"
+                className="justify-self-center lg:w-4/6"
                 src={project.stateOfProject.image}
                 alt=""
               />
@@ -200,7 +208,7 @@ const ProjectDetail = () => {
                 {project.team.text}
               </p>
               <img
-                className=" place-self-center object-cover w-48 lg:w-2/5 h-44 lg:h-72"
+                className=" place-self-center object-cover w-48 lg:w-2/5 h-44 lg:h-80"
                 src={project.team.image}
                 alt=""
               />
