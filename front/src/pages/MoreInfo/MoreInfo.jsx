@@ -11,7 +11,7 @@ const MoreInfo = () => {
   }, []);
 
   return (
-    <section className="bg-oliveGreen xl:h-full brightness-110 text-center text-white pt-3.5">
+    <section className="bg-[#aeb997] xl:h-full text-center text-white pt-3.5">
       <BackArrow />
       <p className="text-sm lg:text-base px-4 xl:w-[30rem] xl:place-self-center mb-8 lg:mb-10">
         <strong>Co-creamos </strong>
@@ -49,7 +49,7 @@ const MoreInfo = () => {
             alt=""
           />
           <h4 className="font-black text-sm lg:text-xl xl:px-14 mt-1 xl:my-1.5">
-            SOLUCIONES DE ASE
+            SOLUCIONES DE RSE
           </h4>
           <p className="font-light text-xs lg:text-base xl:text-[0.9rem] xl:px-4">
             Convertimos regalos corporativos en una oportunidad para generar

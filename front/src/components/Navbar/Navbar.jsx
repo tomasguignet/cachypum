@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../images/LogoNegro.png";
+import Logo from "../../images/logoazul.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
       </Link>
 
       {/* Nav links visibles solo en PC */}
-      <nav className="hidden lg:flex flex-row gap-x-10 lg:gap-x-6 font-[Ubuntu] font-bold text-[0.85rem] xl:text-[0.95rem] text-[#435360] mr-4 pb-6">
+      <nav className="hidden lg:flex flex-row gap-x-10 lg:gap-x-6 font-[Ubuntu] font-bold text-[0.85rem] xl:text-[0.95rem] text-[#434242] mr-4 pb-6">
         <Link to="/fundation">FUNDACIÓN</Link>
         <a href="#projects">PROGRAMAS Y PROYECTOS</a>
         <Link to="/empresas">EMPRESAS</Link>

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../images/LogoNegro.png";
+import Logo from "../../images/logoazul.png";
 import youtube from "../../images/youtube2.png";
 import instagram from "../../images/instagram1.png";
 import linkedin from "../../images/linkedin1.png";
@@ -13,7 +13,11 @@ const Footer = () => {
       className="bg-oliveGreen/80 flex flex-col pb-2 px-1.5"
     >
       <div className="self-center m-1 sm:mt-9">
-        <img className="w-16 sm:w-32 lg:w-40 opacity-70" src={Logo} alt="Logo" />
+        <img
+          className="w-16 sm:w-32 lg:w-40 opacity-70"
+          src={Logo}
+          alt="Logo"
+        />
       </div>
       <div className="flex flex-row justify-between text-white px-1 sm:px-16 lg:px-24 sm:mb-10 lg:mb-16">
         <div className="justify-between flex flex-col">

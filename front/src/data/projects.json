@@ -54,26 +54,42 @@
     ],
     "images": [
       {
-        "src": "front/src/images/DSC_1348.jpg",
+        "src": "/src/images/cdd1.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1350.jpg",
+        "src": "/src/images/cdd2.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1351.jpg",
+        "src": "/src/images/cdd3.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1352.jpg",
+        "src": "/src/images/cdd4.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "front/src/images/DSC_1353.jpg",
+        "src": "/src/images/cdd5.jpg",
+        "alt": "Centro de día"
+      },
+      {
+        "src": "/src/images/cdd6.jpg",
+        "alt": "Centro de día"
+      },
+      {
+        "src": "/src/images/cdd7.jpg",
+        "alt": "Centro de día"
+      },
+      {
+        "src": "/src/images/cdd8.jpg",
         "alt": "Centro de día"
       }
-    ]
+    ],
+    "finalContent": {
+      "image": "/src/images/cddfinalimage.jpg",
+      "text": "“es cultivar el silencio para poder escuchar a la naturaleza, es la sabiduría en la construcción de los horneros, es dialogar sobre meteorología con las hormigas, es el conectar nuestra columna vertebral con la del caballo o burro, es cuanto quieres que sea que logre despertar\ny conectar con el niño que llevamos dentro...”"
+    }
   },
   {
     "id": 2,
@@ -136,26 +152,42 @@
     },
     "images": [
       {
-        "src": "front/src/images/DSC_1348.jpg",
-        "alt": "Centro de día"
+        "src": "/src/images/gr1.jpg",
+        "alt": "Granja recreativa"
       },
       {
-        "src": "front/src/images/DSC_1350.jpg",
-        "alt": "Centro de día"
+        "src": "/src/images/gr2.jpeg",
+        "alt": "Granja recreativa"
       },
       {
-        "src": "front/src/images/DSC_1351.jpg",
-        "alt": "Centro de día"
+        "src": "/src/images/gr3.jpg",
+        "alt": "Granja recreativa"
       },
       {
-        "src": "front/src/images/DSC_1352.jpg",
-        "alt": "Centro de día"
+        "src": "/src/images/gr4.jpg",
+        "alt": "Granja recreativa"
       },
       {
-        "src": "front/src/images/DSC_1353.jpg",
-        "alt": "Centro de día"
+        "src": "/src/images/gr5.jpg",
+        "alt": "Granja recreativa"
+      },
+      {
+        "src": "/src/images/gr6.jpg",
+        "alt": "Granja recreativa"
+      },
+      {
+        "src": "/src/images/gr7.jpg",
+        "alt": "Granja recreativa"
+      },
+      {
+        "src": "/src/images/gr8.jpg",
+        "alt": "Granja recreativa"
       }
-    ]
+    ],
+    "finalContent": {
+      "image": "/src/images/grfinalimage.jpg",
+      "text": "“una fábula de un cuento que tenga el poder para soñar juntos.....\nUn fogón encendido donde arden historias, un té hecho con hierbas de la tierra que nos vio nacer, un canto profundo que resuena con la inmensidad de la Cordillera de los Andes.“"
+    }
   },
   {
     "id": 3,

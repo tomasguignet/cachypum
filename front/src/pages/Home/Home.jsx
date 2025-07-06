@@ -11,7 +11,7 @@ import seParte from "../../images/quierosabermas.png";
 const Home = () => {
   return (
     <main className="">
-      <section className="relative h-56 sm:h-[35rem] lg:h-screen bg-[url(./images/fondoHome2.jpeg)] opacity-90 bg-cover bg-no-repeat bg-bottom">
+      <section className="relative h-56 sm:h-[35rem] lg:h-screen bg-[url(./images/fondohome.png)] bg-center bg-cover bg-no-repeat">
         {/* Overlay blanco con transparencia */}
         {/* <div className="absolute inset-0 bg-white/20 z-0"></div> */}
 
@@ -89,7 +89,7 @@ const Home = () => {
       </section>
       <section className="flex flex-col sm:flex-row mt-8 sm:mt-20 ml-1.5 mb-5 sm:mb-16">
         <div className="sm:flex sm:flex-col sm:w-[50%] lg:w-[55%] place-items-center text-center sm:justify-center sm:items-center">
-          <h5 className="font-[Roboto] font-light text-sm sm:text-lg lg:text-xl xl:text-2xl pb-2 sm:mb-2 lg:mb-4 xl:mb-6">
+          <h5 className="font-[Roboto] font-light text-sm sm:text-lg lg:text-xl xl:text-2xl pb-2 sm:mb-2 lg:mb-4 xl:mb-6 [word-spacing:0.25rem] lg:[word-spacing:0.4rem] xl:[word-spacing:0.7rem]">
             SÉ PARTE
           </h5>
           <h3 className="font-[Sora] font-black w-4/5 sm:w-3/4 sm:text-[1.2 rem] lg:text-[1.5rem] xl:text-[1.8rem] xl:leading-11 xl:pl-3 text-black/80 mr-0.5">
