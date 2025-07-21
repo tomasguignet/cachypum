@@ -2,10 +2,10 @@
   {
     "id": 1,
     "title": "Centro de día",
-    "cardImage": "/src/images/centrodedia3.jpg",
+    "cardImage": "/images/centrodedia3.jpg",
     "cardDescription": "Asistencia terapéutica, educativa y recreativa a personas adultas con discapacidad",
     "link": "/centro-de-dia",
-    "titleImage": "/src/images/centrodedia2.jpg",
+    "titleImage": "/images/centrodedia2.jpg",
     "subtitle": "Bienvenidos al corazón de fundación Cachypum",
     "importantWord": "corazón",
     "summary": [
@@ -31,73 +31,73 @@
       ]
     },
     "team": {
-      "image": "/src/images/hombreSombreroPlanta.jpg",
+      "image": "/images/hombreSombreroPlanta.jpg",
       "text": "Contamos con un equipo humano comprometido, solidario, empático y apasionado por su labor, valores que definen su principal característica.  Este equipo interdisciplinario está conformado por profesionales de la salud, educación física, expresión artística, psicólogos, trabajadores sociales, docentes, auxiliares, terapistas ocupacionales, todos enfocados en brindar acompañamiento integral, promover el desarrollo personal y garantizar un ambiente inclusivo y respetuoso para cada participante."
     },
     "workshops": [
       {
-        "image": "/src/images/carpinteria.png",
+        "image": "/images/carpinteria.png",
         "title": "CARPINTERIA"
       },
       {
-        "image": "/src/images/cocina.png",
+        "image": "/images/cocina.png",
         "title": "COCINA"
       },
       {
-        "image": "/src/images/movimiento.png",
+        "image": "/images/movimiento.png",
         "title": "MOVIMIENTO"
       },
       {
-        "image": "/src/images/huerta.png",
+        "image": "/images/huerta.png",
         "title": "HUERTA"
       }
     ],
     "images": [
       {
-        "src": "/src/images/cdd1.jpg",
+        "src": "/images/cdd1.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "/src/images/cdd2.jpg",
+        "src": "/images/cdd2.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "/src/images/cdd3.jpg",
+        "src": "/images/cdd3.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "/src/images/cdd4.jpg",
+        "src": "/images/cdd4.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "/src/images/cdd5.jpg",
+        "src": "/images/cdd5.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "/src/images/cdd6.jpg",
+        "src": "/images/cdd6.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "/src/images/cdd7.jpg",
+        "src": "/images/cdd7.jpg",
         "alt": "Centro de día"
       },
       {
-        "src": "/src/images/cdd8.jpg",
+        "src": "/images/cdd8.jpg",
         "alt": "Centro de día"
       }
     ],
     "finalContent": {
-      "image": "/src/images/cddfinalimage.jpg",
+      "image": "/images/cddfinalimage.JPG",
       "text": "“es cultivar el silencio para poder escuchar a la naturaleza, es la sabiduría en la construcción de los horneros, es dialogar sobre meteorología con las hormigas, es el conectar nuestra columna vertebral con la del caballo o burro, es cuanto quieres que sea que logre despertar\ny conectar con el niño que llevamos dentro...”"
     }
   },
   {
     "id": 2,
     "title": "Granja recreativa",
-    "cardImage": "/src/images/granjarecreativa.jpg",
+    "cardImage": "/images/granjarecreativa.jpg",
     "cardDescription": "Visita educativa y recreativa a nuestra granja para niños y niñas",
     "link": "/granja-recreativa",
-    "titleImage": "/src/images/oveja.jpg",
+    "titleImage": "/images/oveja.jpg",
     "subtitle": "El legado para nuevas generaciones",
     "importantWord": "generaciones",
     "summary": [
@@ -152,50 +152,50 @@
     },
     "images": [
       {
-        "src": "/src/images/gr1.jpg",
+        "src": "/images/gr1.jpg",
         "alt": "Granja recreativa"
       },
       {
-        "src": "/src/images/gr2.jpeg",
+        "src": "/images/gr2.jpeg",
         "alt": "Granja recreativa"
       },
       {
-        "src": "/src/images/gr3.jpg",
+        "src": "/images/gr3.jpg",
         "alt": "Granja recreativa"
       },
       {
-        "src": "/src/images/gr4.jpg",
+        "src": "/images/gr4.JPG",
         "alt": "Granja recreativa"
       },
       {
-        "src": "/src/images/gr5.jpg",
+        "src": "/images/gr5.jpg",
         "alt": "Granja recreativa"
       },
       {
-        "src": "/src/images/gr6.jpg",
+        "src": "/images/gr6.JPG",
         "alt": "Granja recreativa"
       },
       {
-        "src": "/src/images/gr7.jpg",
+        "src": "/images/gr7.jpg",
         "alt": "Granja recreativa"
       },
       {
-        "src": "/src/images/gr8.jpg",
+        "src": "/images/gr8.jpg",
         "alt": "Granja recreativa"
       }
     ],
     "finalContent": {
-      "image": "/src/images/grfinalimage.jpg",
+      "image": "/images/grfinalimage.jpg",
       "text": "“una fábula de un cuento que tenga el poder para soñar juntos.....\nUn fogón encendido donde arden historias, un té hecho con hierbas de la tierra que nos vio nacer, un canto profundo que resuena con la inmensidad de la Cordillera de los Andes.“"
     }
   },
   {
     "id": 3,
     "title": "Bienestar y naturaleza",
-    "cardImage": "/src/images/bienestarynaturaleza.jpg",
+    "cardImage": "/images/bienestarynaturaleza.jpg",
     "cardDescription": "Nos enfocamos en actividades con y en la naturaleza, combinando la sabiduría de los elementos con técnicas especializadas que promueven el equilibrio físico, mental y emocional. ",
     "link": "/bienestar-y-naturaleza",
-    "titleImage": "/src/images/caballoNegro.jpg",
+    "titleImage": "/images/caballoNegro.jpg",
     "subtitle": "Creemos en la sabiduría natural",
     "importantWord": "natural",
     "summary": [
@@ -221,7 +221,7 @@
       ]
     },
     "proposal": {
-      "image": "/src/images/bienestarynaturaleza.jpg",
+      "image": "/images/bienestarynaturaleza.jpg",
       "proposalList": [
         {
           "title": "Terapias Asistidas con Caballos: ",
@@ -249,10 +249,10 @@
   {
     "id": 4,
     "title": "Extensión social",
-    "cardImage": "/src/images/riego.jpg",
+    "cardImage": "/images/riego.jpg",
     "cardDescription": "Red comunitaria para gestionar trámites, salud y donaciones",
     "link": "/extension-social",
-    "titleImage": "/src/images/manosagarradas.png",
+    "titleImage": "/images/manosagarradas.png",
     "subtitle": "Nuestra manera es comunitaria",
     "importantWord": "comunitaria",
     "summary": [
@@ -265,10 +265,10 @@
   {
     "id": 5,
     "title": "Hogar sustentable",
-    "cardImage": "/src/images/hogarsustentable.jpg",
+    "cardImage": "/images/hogarsustentable.jpg",
     "cardDescription": "Construcción de un hogar para una comunidad sustentable de personas con discapacidad",
     "link": "/hogar-sustentable",
-    "titleImage": "/src/images/hogarDeVida.jpeg",
+    "titleImage": "/images/hogarDeVida.jpeg",
     "subtitle": "Nuestra manera es comunitaria",
     "importantWord": "comunitaria",
     "summary": [
@@ -288,7 +288,7 @@
       }
     ],
     "proposal": {
-      "image": "/src/images/hogarsustentable.jpg",
+      "image": "/images/hogarsustentable.jpg",
       "proposalText": [
         {
           "text": "Vivir y trabajar en un modelo de vida compartida, ",
@@ -305,17 +305,17 @@
       ]
     },
     "stateOfProject": {
-      "image": "/src/images/fonplata2.png",
+      "image": "/images/fonplata2.png",
       "text": "El Hogar de Vida Sustentable se encuentra en proceso de desarrollo, a la espera de los desembolsos correspondientes para avanzar en su construcción y puesta en marcha. Este espacio será un refugio de bienestar, integración y conexión con la naturaleza, basado en principios de sustentabilidad y autocuidado.\nApoya este proyecto: FONPLATA."
     }
   },
   {
     "id": 6,
     "title": "Servicio de transporte",
-    "cardImage": "/src/images/transporte.jpeg",
+    "cardImage": "/images/transporte.jpeg",
     "cardDescription": "Puerta a puerta, garantizando accesibilidad, seguridad y un acompañamiento responsable para nuestros concurrentes.",
     "link": "/servicio-de-transporte",
-    "titleImage": "/src/images/transporte-header.jpeg",
+    "titleImage": "/images/transporte-header.jpeg",
     "subtitle": "Acortamos brechas",
     "importantWord": "brechas",
     "summary": [
@@ -324,6 +324,6 @@
         "class": ""
       }
     ],
-    "summaryImage": "/src/images/logotriunfoseguros.png"
+    "summaryImage": "/images/logotriunfoseguros.png"
   }
 ]

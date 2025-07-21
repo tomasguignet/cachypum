@@ -269,7 +269,7 @@ const ProjectDetail = () => {
         )}
       </div>
       {project.images && (
-        <div className="flex bg-[url(./images/fondo.jpg)] justify-center mt-10">
+        <div className="flex bg-[url(/images/fondo.jpg)] justify-center mt-10">
           <div className="flex justify-center xs:flex-row flex-wrap items-center w-full max-w-6xl gap-6 my-16">
             {project.images.map((image) => (
               <div
@@ -296,7 +296,7 @@ const ProjectDetail = () => {
               alt=""
             />
           </div>
-          <div className="flex flex-col items-center py-3 sm:py-5 md:py-8 lg:py-10 xl:py-14 h-2/5 whitespace-pre-line bg-[url(./images/finfondo.jpg)] bg-cover">
+          <div className="flex flex-col items-center py-3 sm:py-5 md:py-8 lg:py-10 xl:py-14 h-2/5 whitespace-pre-line bg-[url(/images/finfondo.jpg)] bg-cover">
             <p className="text-center text-[0.35rem] xs:text-[0.45rem] sm:text-[0.6rem] md:text-xs lg:text-[0.8rem] xl:text-sm italic font-[Montserrat] text-[#6a8876] max-w-xl">
               {project.finalContent.text}
             </p>
