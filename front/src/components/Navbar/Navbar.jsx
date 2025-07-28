@@ -88,9 +88,6 @@ const Navbar = () => {
             <a onClick={closeMenu} href="#projects">
               PROGRAMAS Y PROYECTOS
             </a>
-            <Link>EMPRESAS</Link>
-            <Link>BLOG</Link>
-            <Link>INVOLUCRADOS</Link>
             <a onClick={closeMenu} href="#contacts">
               CONTACTANOS
             </a>

@@ -63,9 +63,9 @@ const ProjectDetail = () => {
           </div>
         </div>
       </header>
-      <div className="lg:w-4/5 lg:flex lg:flex-col lg:justify-self-center px-2 mb-2.5">
+      <div className="lg:w-4/5 lg:flex lg:flex-col lg:justify-self-center px-6 md:px-2 mb-2.5">
         <div className="flex flex-col lg:flex-row text-center mt-2 sm:mt-4 lg:mt-6 lg:mb-10 lg:pl-8">
-          <h2 className="lg:w-1/2 lg:px-3 lg:pr-10 xl:pr-10 2xl:pr-30  mb-3 text-lg sm:text-xl lg:text-2xl leading-7 lg:content-center lg:text-left lg:place-self-start lg:mt-8">
+          <h2 className="lg:w-1/2 lg:px-3 lg:pr-10 xl:pr-10 2xl:pr-30  mb-3 text-lg sm:text-xl lg:text-2xl leading-5 md:leading-7 lg:content-center lg:text-left lg:place-self-start lg:mt-8">
             {resaltarPalabra(project.subtitle, project.importantWord)}
           </h2>
           <div className="flex flex-col lg:w-2/3 whitespace-pre-line">
@@ -87,12 +87,12 @@ const ProjectDetail = () => {
         {project.purpose && (
           <div className="mt-6 lg:flex lg:gap-x-5">
             <div className=" lg:content-center">
-              <div className="mb-1.5 lg:mb-4 text-center lg:text-left text-oliveGreen inline-block relative">
+              <div className="mb-3 lg:mb-4 text-center lg:text-left text-oliveGreen inline-block relative">
                 <div className="inline-block">
-                  <h3 className="inline font-[DM_Serif_Text] font-normal text-base sm:text-xl lg:text-2xl">
+                  <h3 className="inline font-[DM_Serif_Text] font-normal text-lg sm:text-xl lg:text-2xl">
                     {"nuestro "}
                   </h3>
-                  <h3 className="inline font-[Sora] font-black text-[0.9rem] sm:text-xl lg:text-2xl">
+                  <h3 className="inline font-[Sora] font-black text-base sm:text-xl lg:text-2xl">
                     propósito
                   </h3>
                 </div>
@@ -100,7 +100,7 @@ const ProjectDetail = () => {
               </div>
               {Array.isArray(project.purpose.purposeText) ? (
                 <div className="whitespace-pre-line">
-                  <p className="lg:w-4/6 text-[0.59rem] sm:text-[0.76rem] lg:text-base text-[#435360]">
+                  <p className="lg:w-4/6 text-[0.65rem] sm:text-[0.76rem] lg:text-base text-[#435360]">
                     {project.purpose.purposeText?.map((line, i) => (
                       <span key={i} className={line.class}>
                         {line.text}
@@ -115,10 +115,10 @@ const ProjectDetail = () => {
                       key={purpose.title}
                       className="mb-1.5 text-[#435360] lg:mr-8"
                     >
-                      <h3 className="font-[Sora] font-bold text-[0.95rem] sm:text-lg lg:text-lg lg:leading-6 lg:mb-1">
+                      <h3 className="font-[Sora] font-bold text-sm sm:text-lg lg:text-lg lg:leading-6 lg:mb-1">
                         {purpose.title}
                       </h3>
-                      <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base mb-2.5">
+                      <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-base mb-2.5">
                         {purpose.text}
                       </p>
                     </div>
@@ -140,12 +140,12 @@ const ProjectDetail = () => {
         {project.proposal && (
           <div className="mt-6 lg:mt-12 lg:flex lg:gap-x-4">
             <div className="lg:w-3/5 lg:content-center">
-              <div className="mb-1.5 lg:mb-4 text-center lg:text-left text-oliveGreen inline-block relative">
+              <div className="mb-3 lg:mb-4 text-center lg:text-left text-oliveGreen inline-block relative">
                 <div className="inline-block">
-                  <h3 className="inline font-[DM_Serif_Text] font-normal text-base sm:text-xl lg:text-2xl">
+                  <h3 className="inline font-[DM_Serif_Text] font-normal text-lg sm:text-xl lg:text-2xl">
                     la{" "}
                   </h3>
-                  <h3 className="inline font-[Sora] font-black text-[0.9rem] sm:text-xl lg:text-2xl">
+                  <h3 className="inline font-[Sora] font-black text-base sm:text-xl lg:text-2xl">
                     propuesta
                   </h3>
                 </div>
@@ -155,7 +155,7 @@ const ProjectDetail = () => {
                 {project.proposal.proposalList ? (
                   <ul className="px-3 pl-4">
                     {project.proposal.proposalList.map((proposal) => (
-                      <li className="text-[0.59rem] sm:text-[0.76rem] lg:text-base list-disc text-[#435360]">
+                      <li className="text-[0.65rem] sm:text-[0.76rem] lg:text-base list-disc text-[#435360]">
                         <h5 className="inline font-bold">{proposal.title}</h5>
                         <p className="inline">{proposal.text}</p>
                       </li>
@@ -163,7 +163,7 @@ const ProjectDetail = () => {
                   </ul>
                 ) : (
                   <div className="whitespace-pre-line">
-                    <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-[#435360]">
+                    <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-base text-[#435360]">
                       {project.proposal.proposalText?.map((line, i) => (
                         <span key={i} className={line.class}>
                           {line.text}
@@ -189,18 +189,18 @@ const ProjectDetail = () => {
         {project.stateOfProject && (
           <div className="mt-20 lg:flex lg:gap-x-4">
             <div className="lg:w-3/5 lg:content-center">
-              <div className="mb-1.5 lg:mb-4 text-center lg:text-left text-oliveGreen inline-block relative">
+              <div className="mb-3 lg:mb-4 text-center lg:text-left text-oliveGreen inline-block relative">
                 <div className="inline-block">
-                  <h3 className="inline font-[DM_Serif_Text] font-normal text-base sm:text-xl lg:text-2xl">
+                  <h3 className="inline font-[DM_Serif_Text] font-normal text-lg sm:text-xl lg:text-2xl">
                     estado del{" "}
                   </h3>
-                  <h3 className="inline font-[Sora] font-black text-[0.9rem] sm:text-xl lg:text-2xl">
+                  <h3 className="inline font-[Sora] font-black text-base sm:text-xl lg:text-2xl">
                     proyecto
                   </h3>
                 </div>
                 <div className="absolute left-[57.5%] transform -translate-x-1/2 bottom-[-0.1rem] lg:-bottom-1 h-[3.5px] bg-oliveGreen w-[115%]"></div>
               </div>
-              <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base mb-2 text-[#435360]">
+              <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-base mb-2 text-[#435360]">
                 {project.stateOfProject.text}
               </p>
             </div>
@@ -215,19 +215,19 @@ const ProjectDetail = () => {
         )}
         {project.team && (
           <div className="mt-6">
-            <div className="mb-1.5 lg:mb-3 text-center lg:text-left text-oliveGreen inline-block relative">
+            <div className="mb-3 lg:mb-3 text-center lg:text-left text-oliveGreen inline-block relative">
               <div className="inline-block">
-                <h3 className="inline font-[DM_Serif_Text] font-normal text-base sm:text-xl lg:text-2xl">
+                <h3 className="inline font-[DM_Serif_Text] font-normal text-lg sm:text-xl lg:text-2xl">
                   el{" "}
                 </h3>
-                <h3 className="inline font-[Sora] font-black text-[0.9rem] sm:text-xl lg:text-2xl">
+                <h3 className="inline font-[Sora] font-black text-base sm:text-xl lg:text-2xl">
                   equipo
                 </h3>
               </div>
               <div className="absolute left-[57.5%] transform -translate-x-1/2 bottom-[-0.1rem] lg:-bottom-1 h-[3px] bg-oliveGreen w-[115%]"></div>
             </div>
             <div className="lg:flex">
-              <p className="text-[0.59rem] sm:text-[0.76rem] lg:text-base text-center lg:text-left lg:w-3/5 mb-1.5 lg:pr-12 text-[#435360]">
+              <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-base text-center lg:text-left lg:w-3/5 mb-1.5 lg:pr-12 text-[#435360]">
                 {project.team.text}
               </p>
               <img
@@ -240,12 +240,12 @@ const ProjectDetail = () => {
         )}
         {project.workshops && (
           <div className="mt-3 whitespace-pre-line">
-            <div className="mb-1.5 lg:mb-2 text-center lg:text-left text-oliveGreen inline-block relative">
+            <div className="mb-3 lg:mb-2 text-center lg:text-left text-oliveGreen inline-block relative">
               <div className="inline-block">
-                <h3 className="inline font-[DM_Serif_Text] font-normal text-base sm:text-xl lg:text-2xl">
+                <h3 className="inline font-[DM_Serif_Text] font-normal text-lg sm:text-xl lg:text-2xl">
                   sus{" "}
                 </h3>
-                <h3 className="inline font-[Sora] font-black text-[0.9rem] sm:text-xl lg:text-2xl">
+                <h3 className="inline font-[Sora] font-black text-base sm:text-xl lg:text-2xl">
                   talleres
                 </h3>
               </div>

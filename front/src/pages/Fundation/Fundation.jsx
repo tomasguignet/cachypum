@@ -12,7 +12,7 @@ const Fundation = () => {
   return (
     <div>
       <BackArrow />
-      <section className="flex flex-row pl-2 mt-2 sm:h-80 lg:h-[30rem]">
+      <section className="flex flex-row pl-10 sm:pl-32 mt-12 md:mt-2 sm:h-80 lg:h-[30rem]">
         <div className="w-2/4 sm:flex sm:flex-col sm:justify-center sm:px-3 lg:px-7">
           <h1 className="font-[DM_Serif_Text] text-base sm:text-2xl lg:text-[2.2rem] text-oliveGreen leading-2 sm:leading-4 lg:leading-6">
             nuestro
@@ -20,7 +20,7 @@ const Fundation = () => {
           <h1 className="font-[Sora] font-black text-base sm:text-2xl lg:text-[2.2rem] text-oliveGreen">
             proposito
           </h1>
-          <div className="text-[0.5rem] sm:text-[0.73rem] lg:text-base text-justify">
+          <div className="text-[0.5rem] sm:text-[0.73rem] lg:text-base text-[#41515e] text-justify">
             <p className="mt-1.5 mb-1.5">
               Generamos espacios que mejoran la calidad de vida y el bienestar
               integral mediante
@@ -51,7 +51,7 @@ const Fundation = () => {
           }}
         />
       </section>
-      <section className="flex flex-row pr-2 mt-4 sm:h-80 lg:h-[30rem]">
+      <section className="flex flex-row pr-10 sm:pr-32 mt-4 sm:h-80 lg:h-[30rem]">
         <img
           loading="lazy"
           className="w-2/4 object-cover"
@@ -71,7 +71,7 @@ const Fundation = () => {
           <h1 className="font-[Sora] font-black text-base sm:text-2xl lg:text-[2.2rem] text-right text-lightOrange">
             visión
           </h1>
-          <div className="text-[0.5rem] sm:text-[0.73rem] lg:text-base text-justify">
+          <div className="text-[0.5rem] sm:text-[0.73rem] lg:text-base text-[#41515e] text-justify">
             <p className="mt-1.5 mb-1.5">
               Nuestra <strong>visión</strong> es ser una entidad de referencia
               en la promoción de una sociedad justa, con igualdad de
@@ -100,7 +100,7 @@ const Fundation = () => {
             valores
           </h1>
         </div>
-        <div className="flex flex-row justify-center gap-x-14 sm:gap-x-28 lg:gap-x-48">
+        <div className="flex flex-row justify-center gap-x-14 sm:gap-x-28 lg:gap-x-48 text-[#41515e]">
           <div className="flex flex-col text-center font-[Sora]">
             <h3 className="font-medium text-[0.7rem] sm:text-[0.8rem] lg:text-base mb-1">
               HUMANOS
@@ -137,9 +137,9 @@ const Fundation = () => {
             objetivos
           </h1>
         </div>
-        <div className="flex flex-row font-[Sora] text-[0.47rem] sm:text-[0.73rem] lg:text-base px-2 sm:px-8 lg:px-16 gap-x-2 sm:gap-x-3.5 lg:gap-x-6 text-justify">
+        <div className="flex flex-row font-[Sora] text-[0.47rem] sm:text-[0.73rem] lg:text-sm px-8 sm:px-24 lg:px-40 gap-x-2 sm:gap-x-3.5 lg:gap-x-6 text-[#41515e] text-justify">
           <div className="w-1/2">
-            <p className="mb-1">
+            <p className="mb-3">
               Desde Fundación Cachypum trabajamos activamente para mejorar la
               calidad de vida de las personas en situación de vulnerabilidad.
               Nuestra misión está alineada con los Objetivos de Desarrollo
@@ -153,10 +153,10 @@ const Fundation = () => {
             </p>
           </div>
           <div className="w-1/2">
-            <p className="mb-1">
+            <p className="mb-3">
               impacto positivo en la sociedad y el medio ambiente.
             </p>
-            <p className="mb-1">
+            <p className="mb-3">
               En Cachypum cada acción cuenta y cada esfuerzo nos acerca más a un
               futuro sostenible y próspero para todos.
             </p>
