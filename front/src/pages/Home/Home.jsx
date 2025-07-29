@@ -40,7 +40,7 @@ const Home = () => {
           </p>
 
           <Link
-            className="font-[Roboto] font-medium text-[#99a581] border-[3.5px] rounded-sm border-[#99a581] mt-8 px-1.5 py-0.5 text-xs sm:text-base sm:px-2 sm:mt-20 tracking-[0.07rem]"
+            className="font-[Roboto] font-bold text-[#99a581] border-[2.5px] md:border[3.5px] rounded-xs border-[#99a581] mt-8 px-1.5 py-0.5 text-[0.55rem] sm:text-base sm:px-2 sm:mt-20 tracking-[0.05rem]"
             to="/philosophy"
           >
             Nuestra filosofía
