@@ -69,7 +69,7 @@ const ProjectDetail = () => {
             {resaltarPalabra(project.subtitle, project.importantWord)}
           </h2>
           <div className="flex flex-col lg:w-2/3 whitespace-pre-line">
-            <p className="lg:w-4/5 text-justify text-xs sm:text-base lg:text-lg lg:leading-6 text-[#435360]">
+            <p className="lg:w-4/5 text-justify text-xs sm:text-[0.9rem] lg:text-[0.9rem] lg:leading-5 text-[#41515e]">
               {project.summary?.map((line, i) => (
                 <span key={i} className={line.class}>
                   {line.text}
@@ -87,7 +87,7 @@ const ProjectDetail = () => {
         {project.purpose && (
           <div className="mt-6 lg:flex lg:gap-x-5">
             <div className=" lg:content-center">
-              <div className="mb-3 lg:mb-4 text-center lg:text-left text-oliveGreen inline-block relative">
+              <div className="mb-3 lg:mb-12 text-center lg:text-left text-oliveGreen inline-block relative">
                 <div className="inline-block">
                   <h3 className="inline font-[DM_Serif_Text] font-normal text-lg sm:text-xl lg:text-2xl">
                     {"nuestro "}
@@ -100,13 +100,13 @@ const ProjectDetail = () => {
               </div>
               {Array.isArray(project.purpose.purposeText) ? (
                 <div className="whitespace-pre-line">
-                  <p className="lg:w-4/6 text-[0.65rem] sm:text-[0.76rem] lg:text-base text-[#435360]">
+                  <div className="lg:w-[60%] text-[0.65rem] sm:text-[0.76rem] lg:text-[0.9rem] text-[#435360]">
                     {project.purpose.purposeText?.map((line, i) => (
-                      <span key={i} className={line.class}>
+                      <p key={i} className={`${line.class}`}>
                         {line.text}
-                      </span>
+                      </p>
                     ))}
-                  </p>
+                  </div>
                 </div>
               ) : (
                 <div className="lg:flex lg:gap-x-10">
@@ -115,10 +115,10 @@ const ProjectDetail = () => {
                       key={purpose.title}
                       className="mb-1.5 text-[#435360] lg:mr-8"
                     >
-                      <h3 className="font-[Sora] font-bold text-sm sm:text-lg lg:text-lg lg:leading-6 lg:mb-1">
+                      <h3 className="lg:w-44 font-[Sora] font-bold text-sm sm:text-base lg:text-base lg:leading-4 lg:mb-3">
                         {purpose.title}
                       </h3>
-                      <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-base mb-2.5">
+                      <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-[0.9rem] mb-2.5">
                         {purpose.text}
                       </p>
                     </div>
@@ -140,7 +140,7 @@ const ProjectDetail = () => {
         {project.proposal && (
           <div className="mt-6 lg:mt-12 lg:flex lg:gap-x-4">
             <div className="lg:w-3/5 lg:content-center">
-              <div className="mb-3 lg:mb-4 text-center lg:text-left text-oliveGreen inline-block relative">
+              <div className="mb-3 lg:mb-12 text-center lg:text-left text-oliveGreen inline-block relative">
                 <div className="inline-block">
                   <h3 className="inline font-[DM_Serif_Text] font-normal text-lg sm:text-xl lg:text-2xl">
                     la{" "}
@@ -155,7 +155,7 @@ const ProjectDetail = () => {
                 {project.proposal.proposalList ? (
                   <ul className="px-3 pl-4">
                     {project.proposal.proposalList.map((proposal) => (
-                      <li className="text-[0.65rem] sm:text-[0.76rem] lg:text-base list-disc text-[#435360]">
+                      <li className="text-[0.65rem] sm:text-[0.76rem] lg:text-[0.9rem] list-disc text-[#435360]">
                         <h5 className="inline font-bold">{proposal.title}</h5>
                         <p className="inline">{proposal.text}</p>
                       </li>
@@ -163,7 +163,7 @@ const ProjectDetail = () => {
                   </ul>
                 ) : (
                   <div className="whitespace-pre-line">
-                    <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-base text-[#435360]">
+                    <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-[0.9rem] text-[#435360]">
                       {project.proposal.proposalText?.map((line, i) => (
                         <span key={i} className={line.class}>
                           {line.text}
@@ -187,9 +187,9 @@ const ProjectDetail = () => {
           </div>
         )}
         {project.stateOfProject && (
-          <div className="mt-20 lg:flex lg:gap-x-4">
+          <div className="my-20 lg:flex lg:gap-x-4">
             <div className="lg:w-3/5 lg:content-center">
-              <div className="mb-3 lg:mb-4 text-center lg:text-left text-oliveGreen inline-block relative">
+              <div className="mb-3 lg:mb-12 text-center lg:text-left text-oliveGreen inline-block relative">
                 <div className="inline-block">
                   <h3 className="inline font-[DM_Serif_Text] font-normal text-lg sm:text-xl lg:text-2xl">
                     estado del{" "}
@@ -200,7 +200,7 @@ const ProjectDetail = () => {
                 </div>
                 <div className="absolute left-[57.5%] transform -translate-x-1/2 bottom-[-0.1rem] lg:-bottom-1 h-[3.5px] bg-oliveGreen w-[115%]"></div>
               </div>
-              <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-base mb-2 text-[#435360]">
+              <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-[0.9rem] mb-2 text-[#435360]">
                 {project.stateOfProject.text}
               </p>
             </div>
@@ -227,7 +227,7 @@ const ProjectDetail = () => {
               <div className="absolute left-[57.5%] transform -translate-x-1/2 bottom-[-0.1rem] lg:-bottom-1 h-[3px] bg-oliveGreen w-[115%]"></div>
             </div>
             <div className="lg:flex">
-              <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-base text-center lg:text-left lg:w-3/5 mb-1.5 lg:pr-12 text-[#435360]">
+              <p className="text-[0.65rem] sm:text-[0.76rem] lg:text-[0.9rem] text-center lg:text-left lg:w-3/5 mb-1.5 lg:mt-12 lg:pr-12 text-[#435360]">
                 {project.team.text}
               </p>
               <img
@@ -251,15 +251,15 @@ const ProjectDetail = () => {
               </div>
               <div className="absolute left-[57.5%] transform -translate-x-1/2 bottom-[-0.1rem] lg:-bottom-1 h-[3px] bg-oliveGreen w-[115%]"></div>
             </div>
-            <div className="flex gap-x-2.5 justify-center">
+            <div className="flex gap-x-2.5 justify-center py-5">
               {project.workshops.map((workshop) => (
                 <div className="flex flex-col items-center justify-between">
                   <img
-                    className="w-12 sm:w-22 lg:w-[7.4rem]"
+                    className="w-12 sm:w-22 lg:w-[12rem]"
                     src={workshop.image}
                     alt=""
                   />
-                  <h3 className="text-lightOrange font-extrabold text-[0.73em] sm:text-[0.8rem] lg:text-base">
+                  <h3 className="text-lightOrange font-extrabold text-[0.73em] sm:text-[0.8rem] lg:text-[0.9rem]">
                     {workshop.title}
                   </h3>
                 </div>
@@ -297,7 +297,7 @@ const ProjectDetail = () => {
             />
           </div>
           <div className="flex flex-col items-center py-3 sm:py-5 md:py-8 lg:py-10 xl:py-14 h-2/5 whitespace-pre-line bg-[url(/images/finfondo.jpg)] bg-cover">
-            <p className="text-center text-[0.35rem] xs:text-[0.45rem] sm:text-[0.6rem] md:text-xs lg:text-[0.8rem] xl:text-sm italic font-[Montserrat] text-[#6a8876] max-w-xl">
+            <p className="text-center text-[0.35rem] xs:text-[0.45rem] sm:text-[0.6rem] md:text-xs lg:text-[0.8rem] xl:text-sm italic font-[Montserrat] text-[#6a8876] max-w-3xl">
               {project.finalContent.text}
             </p>
           </div>

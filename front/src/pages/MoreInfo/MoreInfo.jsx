@@ -11,7 +11,7 @@ const MoreInfo = () => {
   }, []);
 
   return (
-    <section className="bg-[#aeb997] xl:h-full text-center text-white pt-3.5">
+    <section className="bg-[#aeb997] xl:h-screen text-center text-white pt-3.5">
       <BackArrow />
       <p className="text-sm lg:text-base px-4 xl:w-[30rem] xl:place-self-center mb-8 lg:mb-10">
         <strong>Co-creamos </strong>
@@ -34,7 +34,7 @@ const MoreInfo = () => {
           <h4 className="font-black text-sm lg:text-xl xl:text-lg xl:px-14 mt-1 xl:my-1.5">
             EVENTOS RESPONSABLES
           </h4>
-          <p className="font-light text-xs lg:text-base xl:text-[0.9rem] xl:px-4">
+          <p className="font-light text-xs lg:text-base xl:text-[0.75rem] text-justify xl:px-4">
             A través de nuestros Eventos Responsables, ofrecemos celebraciones
             de fin de año con impacto positivo, jornadas de forestación y
             cuidado ambiental. Actividades de bienestar para colaboradores y sus
@@ -51,7 +51,7 @@ const MoreInfo = () => {
           <h4 className="font-black text-sm lg:text-xl xl:px-14 mt-1 xl:my-1.5">
             SOLUCIONES DE RSE
           </h4>
-          <p className="font-light text-xs lg:text-base xl:text-[0.9rem] xl:px-4">
+          <p className="font-light text-xs lg:text-base xl:text-[0.75rem] text-justify xl:px-4">
             Convertimos regalos corporativos en una oportunidad para generar
             impacto social. Nuestros regalos empresariales son creados con
             dedicación por personas en situación de vulnerabilidad, brindándoles
@@ -68,7 +68,7 @@ const MoreInfo = () => {
           <h4 className="font-black text-sm lg:text-xl xl:px-14 mt-1 xl:my-1.5">
             BIENESTAR
           </h4>
-          <p className="font-light text-xs lg:text-base xl:text-[0.9rem] xl:px-4">
+          <p className="font-light text-xs lg:text-base xl:text-[0.75rem] text-justify xl:px-4">
             A través de dinámicas al aire libre, experiencias con animales y
             propuestas innovadoras, creamos jornadas que potencian la cohesión,
             creatividad y el bienestar de los equipos. ¡Transformá la manera de
@@ -85,7 +85,7 @@ const MoreInfo = () => {
           <h4 className="font-black text-sm lg:text-xl xl:px-14 mt-1 xl:my-1.5">
             COLABORA CON PROYECTOS
           </h4>
-          <p className="font-light text-xs lg:text-base xl:text-[0.9rem] xl:px-4">
+          <p className="font-light text-xs lg:text-base xl:text-[0.75rem] text-justify xl:px-4">
             Consulta y conoce nuestros proyectos activos para ser parte de la
             construccion de un tejido social mas solido en Mendoza.
           </p>

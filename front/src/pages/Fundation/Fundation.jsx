@@ -20,7 +20,7 @@ const Fundation = () => {
           <h1 className="font-[Sora] font-black text-base sm:text-2xl lg:text-[2.2rem] text-oliveGreen">
             proposito
           </h1>
-          <div className="text-[0.5rem] sm:text-[0.73rem] lg:text-base text-[#41515e] text-justify">
+          <div className="text-[0.5rem] sm:text-[0.73rem] lg:text-[0.9rem] text-[#41515e] text-justify">
             <p className="mt-1.5 mb-1.5">
               Generamos espacios que mejoran la calidad de vida y el bienestar
               integral mediante
@@ -71,7 +71,7 @@ const Fundation = () => {
           <h1 className="font-[Sora] font-black text-base sm:text-2xl lg:text-[2.2rem] text-right text-lightOrange">
             visión
           </h1>
-          <div className="text-[0.5rem] sm:text-[0.73rem] lg:text-base text-[#41515e] text-justify">
+          <div className="text-[0.5rem] sm:text-[0.73rem] lg:text-[0.9rem] text-[#41515e] text-justify">
             <p className="mt-1.5 mb-1.5">
               Nuestra <strong>visión</strong> es ser una entidad de referencia
               en la promoción de una sociedad justa, con igualdad de

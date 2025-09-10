@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Centro de día",
+    "title": "centro de día",
+    "cardTitle": "Centro de día",
     "cardImage": "/images/centrodedia3.jpg",
     "cardDescription": "Asistencia terapéutica, educativa y recreativa a personas adultas con discapacidad",
     "link": "/centro-de-dia",
@@ -93,52 +94,29 @@
   },
   {
     "id": 2,
-    "title": "Granja recreativa",
+    "title": "granja recreativa",
+    "cardTitle": " Manos a la tierra",
     "cardImage": "/images/granjarecreativa.jpg",
-    "cardDescription": "Visita educativa y recreativa a nuestra granja para niños y niñas",
+    "cardDescription": "Una experiencia educativa en la naturaleza donde niños y niñas exploran, huelen, tocan, escuchan y aprenden",
     "link": "/granja-recreativa",
     "titleImage": "/images/oveja.jpg",
     "subtitle": "El legado para nuevas generaciones",
     "importantWord": "generaciones",
     "summary": [
       {
-        "text": "La granja recreativa es un programa dirigido a niños y niñas para que ",
-        "class": ""
-      },
-      {
-        "text": "desarrollen aprendizajes y conocimientos a través del juego",
-        "class": "font-bold"
-      },
-      {
-        "text": ", la recreación y la experiencia directa con animales y plantas.\n",
-        "class": ""
-      },
-      {
-        "text": "Promovemos valores y generamos consciencia ",
-        "class": "font-bold"
-      },
-      {
-        "text": "del cuidado del medio ambiente y respeto hacia los demás seres.",
+        "text": "La granja recreativa es un programa dirigido a niños y niñas para que desarrollen aprendizajes y conocimientos a través del juego, la recreación y la experiencia directa con animales y plantas.Promovemos valores y generamos consciencia del cuidado del medio ambiente y respeto hacia los demás seres.",
         "class": ""
       }
     ],
     "purpose": {
       "purposeText": [
         {
-          "text": "Lo hacemos para fomentar el desarrollo de niños y niñas, ",
+          "text": "Lo hacemos para fomentar el desarrollo de  niños y niñas, conectándolos con la naturaleza y su entorno, fortaleciendo su creatividad, empatía y sentido de responsabilidad.\n",
+          "class": "mb-3"
+        },
+        {
+          "text": "Buscamos que cada niño y niña que participe en nuestro programa no sólo adquiera conocimientos, sino que también desarrolle una profunda consciencia  ambiental y social, entendiendo la importancia del respeto y el cuidado de todos los seres vivos, contribuyendo así a la formación de una generación más consciente y comprometida con el mundo que los rodea.",
           "class": ""
-        },
-        {
-          "text": "conectandolos con la naturaleza y su entorno, fortaleciendo su creatividad, empatia y sentido de responsabilidad.\n",
-          "class": "font-bold"
-        },
-        {
-          "text": "Buscamos que cada niño y niña que participe en nuestro programa no solo adquiera conocimientos, sino que tambien desarrolle una profunda consiencia ambiental y social, entendiendo la importancia del respeto y el cuidado de todos los seres vivos, ",
-          "class": ""
-        },
-        {
-          "text": "contribuyendo asi a la formacion de una generacion mas consciente y comprometida con el mundo que los rodea.",
-          "class": "font-bold"
         }
       ]
     },
@@ -191,9 +169,10 @@
   },
   {
     "id": 3,
-    "title": "Bienestar y naturaleza",
+    "title": "bienestar y naturaleza",
+    "cardTitle": "Bienestar y naturaleza",
     "cardImage": "/images/bienestarynaturaleza.jpg",
-    "cardDescription": "Nos enfocamos en actividades con y en la naturaleza, combinando la sabiduría de los elementos con técnicas especializadas que promueven el equilibrio físico, mental y emocional. ",
+    "cardDescription": "Actividades con y en la naturaleza, combinamos la sabiduría de los elementos con técnicas que promueven el equilibrio físico, mental y emocional.",
     "link": "/bienestar-y-naturaleza",
     "titleImage": "/images/caballoNegro.jpg",
     "subtitle": "Creemos en la sabiduría natural",
@@ -208,11 +187,11 @@
       "purposeText": [
         {
           "text": "Nuestro propósito es generar experiencias terapéuticas y formativas que fortalezcan competencias clave para la vida contemporánea: la creatividad, la autorregulación emocional, el pensamiento flexible y el vínculo humano.\n",
-          "class": ""
+          "class": "mb-3"
         },
         {
           "text": "A través de propuestas sensoriales, expresivas y relacionales, ofrecemos espacios donde el cuerpo, la emoción y la naturaleza se integran como pilares para el desarrollo personal y comunitario.\n",
-          "class": ""
+          "class": "mb-3"
         },
         {
           "text": "Contamos con un equipo interdisciplinario de profesionales de la salud, terapeutas y psicólogos que acompañan cada proceso con rigurosidad, cuidado y compromiso. Cada experiencia se construye desde la presencia y el respeto, garantizando un entorno seguro y significativo para el crecimiento individual y colectivo.",
@@ -248,7 +227,8 @@
   },
   {
     "id": 4,
-    "title": "Extensión social",
+    "title": "extensión social",
+    "cardTitle": "Extensión social",
     "cardImage": "/images/riego.jpg",
     "cardDescription": "Red comunitaria para gestionar trámites, salud y donaciones",
     "link": "/extension-social",
@@ -264,7 +244,8 @@
   },
   {
     "id": 5,
-    "title": "Hogar sustentable",
+    "title": "hogar de vida",
+    "cardTitle": "Hogar sustentable",
     "cardImage": "/images/hogarsustentable.jpg",
     "cardDescription": "Construcción de un hogar para una comunidad sustentable de personas con discapacidad",
     "link": "/hogar-sustentable",
@@ -311,7 +292,8 @@
   },
   {
     "id": 6,
-    "title": "Servicio de transporte",
+    "title": "servicio de transporte",
+    "cardTitle": "Transporte",
     "cardImage": "/images/transporte.jpeg",
     "cardDescription": "Puerta a puerta, garantizando accesibilidad, seguridad y un acompañamiento responsable para nuestros concurrentes.",
     "link": "/servicio-de-transporte",

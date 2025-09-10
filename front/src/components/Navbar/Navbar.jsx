@@ -13,17 +13,17 @@ const Navbar = () => {
     setIsMenuOpen(false); // Cierra el menú
   };
   return (
-    <header className="z-20 w-full flex justify-between items-center pt-0.5 px-0.5 bg-brown">
+    <header className="z-20 w-full flex justify-between items-center pt-0.5 px-0.5 bg-brown mb-10">
       <Link className="" to="/">
         <img
-          className="ml-1 sm:ml-4 lg:ml-4 xl:ml-6 w-11 sm:w-24 lg:w-28 xl:h-32 sm:pt-3"
+          className="ml-1 sm:ml-4 lg:ml-4 xl:ml-16 xl:pt-4 w-11 sm:w-24 lg:w-[5.5rem] lg:h-[6.5rem] xl:w-24 xl:h-28 sm:pt-3"
           src={Logo}
           alt="Logo"
         />
       </Link>
 
       {/* Nav links visibles solo en PC */}
-      <nav className="hidden lg:flex flex-row gap-x-10 lg:gap-x-8 font-[Ubuntu] font-bold text-[0.85rem] xl:text-[0.95rem] text-[#434242] mr-7 pb-6">
+      <nav className="hidden lg:flex flex-row gap-x-10 lg:gap-x-14 font-[Ubuntu] font-bold text-[0.85rem] xl:text-[16px] text-[#434242] mr-7 pb-6">
         <Link to="/fundation">FUNDACIÓN</Link>
         <a href="#projects">PROGRAMAS Y PROYECTOS</a>
         <a href="#contacts">CONTACTANOS</a>
