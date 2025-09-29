@@ -11,20 +11,19 @@ import seParte from "../../images/quierosabermas.png";
 const Home = () => {
   return (
     <main className="">
-      <section className="relative h-56 sm:h-[35rem] lg:h-screen bg-[url(./images/fondohome.png)] bg-center bg-cover bg-no-repeat">
+      <section className="relative flex flex-col h-56 sm:h-[35rem] lg:h-screen bg-[url(./images/fondohome.png)] bg-center bg-cover bg-no-repeat">
         <Navbar />
-        <span className="text-center">
-          <h1 className="leading-none text-oliveGreen font-[Fraunces] text-xl sm:text-5xl lg:text-[55px] xl:text-[55px]">
+        <div className="text-center max-sm:-mt-9">
+          <h1 className="leading-none text-oliveGreen font-[Fraunces] text-xl sm:text-5xl lg:text-[75px] xl:text-[75px]">
             Impulsamos
           </h1>
-          <h1 className="leading-none text-oliveGreen font-[Fraunces] text-xl sm:text-5xl lg:text-[55px] xl:text-[55px]">
+          <h1 className="leading-none text-oliveGreen font-[Fraunces] text-xl sm:text-5xl lg:text-[75px] xl:text-[75px]">
             la co-construcción
           </h1>
-          <h1 className="leading-none mt-0.5 text-lightOrange font-[Fraunces] font-bold text-lg sm:text-4xl lg:text-[48px] xl:text-[48px]">
+          <h1 className="leading-none mt-0.5 text-lightOrange font-[Fraunces] font-bold text-lg sm:text-4xl lg:text-[55px] xl:text-[55px]">
             del tejido social
           </h1>
-        </span>
-        {/* </div> */}
+        </div>
       </section>
 
       <section className="z-20 bg-[url(/images/fondo.jpg)] bg-repeat shadow-md">
@@ -79,7 +78,7 @@ const Home = () => {
                 ))}
               </div>
             </div>
-            <div className="font-[Montserrat] text-[0.9rem]">
+            <div className="font-[Montserrat] text-[0.87rem] sm:text-[0.9rem] mx-[80px]">
               <p className="mt-22">
                 Cachypum es un proyecto político que cuida, transforma y piensa.
               </p>

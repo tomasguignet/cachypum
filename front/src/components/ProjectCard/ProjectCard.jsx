@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
           alt={project.title}
         />
         <div className="flex-1 flex flex-col justify-between mt-4">
-          <div className="sm:text-left text-[#41515e] max-sm:mb-7">
+          <div className="sm:text-left text-[#41515e] max-sm:mb-1">
             <h3 className="text-center font-[Sora] font-black text-base sm:text-sm lg:text-base">
               {project.cardTitle}
             </h3>
