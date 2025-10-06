@@ -13,7 +13,7 @@ const Home = () => {
     <main className="">
       <section className="relative flex flex-col h-56 sm:h-[35rem] lg:h-screen bg-[url(./images/fondohome.png)] bg-center bg-cover bg-no-repeat">
         <Navbar />
-        <div className="text-center max-sm:-mt-9">
+        <div className="text-center max-sm:-mt-9 -mt-8">
           <h1 className="leading-none text-oliveGreen font-[Fraunces] text-xl sm:text-5xl lg:text-[75px] xl:text-[75px]">
             Impulsamos
           </h1>
